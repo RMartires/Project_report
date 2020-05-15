@@ -624,7 +624,7 @@ We are highly indebted to Our Director, Rev.
 We would like to express our gratitude to Dr.
  Varsha Turkar, Head of Department of Electronics And Telecommunication
  Engineering and Dr.
- Shreyas Simu project guides for their guidance and constant supervision
+ Shreyas Simu our project guides for their guidance and constant supervision
  as well as for providing necessary information regarding the project &
  also for their support in completing the project.
 \end_layout
@@ -650,38 +650,6 @@ Lastly, we place on records, a huge amount of thanks to Almighty, our family
  and friends for their blessings, inspiration and constant support and those
  who have helped us directly and indirectly for the accomplishment of the
  project.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset toc
-LatexCommand tableofcontents
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset FloatList figure
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset FloatList table
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -728,6 +696,39 @@ Industrial pollution is one of the most serious problems faced today.
 \end_layout
 
 \begin_layout Abstract
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList table
+
+\end_inset
+
+
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Left Header
+Pollution Detection and Prediction System
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage newpage
 \end_inset
 
@@ -789,7 +790,7 @@ The six major types of air pollutants are Carbon Monoxide (CO), Nitrogen
 \end_layout
 
 \begin_layout Subsection
-Project scope
+Project Scope
 \end_layout
 
 \begin_layout Standard
@@ -836,40 +837,12 @@ The Draft Environment Laws (Amendment) Bill, 2015 was published by the Ministry
  in industries yet.
  But the government of India is making industrial pollution control and
  monitoring laws more strict.
+ This action will create a demand for products and services that would aid
+ in the process that the government underlines for companies to perform.
 \end_layout
 
 \begin_layout Subsection
-Objectives of the project
-\end_layout
-
-\begin_layout Standard
-The main objective of the project is to monitor the pollutants emitted from
- an industry/factory and predict the future dispersion of these pollutants
- also to then output these results in the form of reports for industries/factori
-es.
- To accomplish this project, three objectives were identified that are
-\end_layout
-
-\begin_layout Enumerate
-To create a series of gadgets which can measure the emission parameters
- and the meteorological parameters and also that can withstand the environmental
- conditions present near the stack/chimney and transmit this information
- to a server that is Internet Of Things (IOT).
-\end_layout
-
-\begin_layout Enumerate
-To develop a module that uses Machine Learning (ML) models with data acquired
- from the cloud server to predict future emission parameter values.
- 
-\end_layout
-
-\begin_layout Enumerate
-To create a module that simulates the movement of fluid particles (pollutant)
- in the air using air dispersion models with meteorological data.
-\end_layout
-
-\begin_layout Section
-LITERATURE SURVEY
+Litrature Survey
 \end_layout
 
 \begin_layout Standard
@@ -1260,8 +1233,8 @@ literal "false"
 n, and identify source emission rate accurately and efficiently.
 \end_layout
 
-\begin_layout Section
-GAP ANALYSIS
+\begin_layout Subsection
+Gap Analysis
 \end_layout
 
 \begin_layout Standard
@@ -1313,6 +1286,96 @@ The proposed model will however predict emission rate at the stack and use
  extent as compared to the previous models.
  This will allow us to take more accurate readings and hence make more accurate
  predictions of future emission rates.
+\end_layout
+
+\begin_layout Subsection
+Objectives Of The Project
+\end_layout
+
+\begin_layout Standard
+The main objective of the project is to monitor the pollutants emitted from
+ an industry/factory and predict the future dispersion of these pollutants
+ also to then output these results in the form of reports for industries/factori
+es.
+ To accomplish this project, three objectives were identified that are
+\end_layout
+
+\begin_layout Enumerate
+To create a series of gadgets which can measure the emission parameters
+ and the meteorological parameters and also that can withstand the environmental
+ conditions present near the stack/chimney and transmit this information
+ to a server that is Internet Of Things (IOT).
+\end_layout
+
+\begin_layout Enumerate
+To develop a module that uses Machine Learning (ML) models with data acquired
+ from the cloud server to predict future emission parameter values.
+ 
+\end_layout
+
+\begin_layout Enumerate
+To create a module that simulates the movement of fluid particles (pollutant)
+ in the air using air dispersion models with meteorological data.
+\end_layout
+
+\begin_layout Section
+DATASET AND STUDY AREA
+\end_layout
+
+\begin_layout Standard
+The objective of the prediction module is to predict the emission rate at
+ the stack/chimney.
+ To build and test the prediction model, 1000 dummy data points were generated
+ using Gaussian distribution to randomly generate values for the feature
+ set with guidance from an industry expert, this data was later split into
+ training and testing that is 80% and 20% respectively.
+ The feature set is chosen on the basis of what factors will correlate to
+ the emission rate and the type of pollutants emitted from the stack.
+ The feature set consists of independent variables: day, month, type of
+ industry, size of the industry, and output efficiency of industry and dependent
+ variable: emission rate.
+\end_layout
+
+\begin_layout Itemize
+Type of industry: what the industry/factory produces which will correlate
+ to what gases are emitted out of the stack/chimney, this will be in the
+ form of labeled classes.
+ 
+\end_layout
+
+\begin_layout Itemize
+Size of the industry: how big is the industry/factory which will correlate
+ how much the maximum is outputted, this will be represented in the form
+ of a scale from 1 to 10.
+\end_layout
+
+\begin_layout Itemize
+Output efficiency: the amount of output it produces each day divided by
+ the total amount of output it can ideally produce.
+ 
+\end_layout
+
+\begin_layout Itemize
+Emission rate: this is defined as the amount of pollutants released from
+ the stack per unit time.
+\end_layout
+
+\begin_layout Standard
+The prediction module is also used on the collected meteorological data
+ to predict the air velocity and direction, this is then applied to calculate
+ the dispersion of pollutants in the air.
+\end_layout
+
+\begin_layout Standard
+The feature set of this prediction model consists of independent variables:
+ day, month, ambient temperature, ambient pressure, moisture content and
+ dependent variables: the air velocity and air direction.
+\end_layout
+
+\begin_layout Standard
+Day and month are used to timestamp data points also temperature, pressure
+ and moisture content of the ambient air is correlated to the velocity and
+ direction of air.
 \end_layout
 
 \begin_layout Section
@@ -1378,9 +1441,8 @@ status open
 \align center
 \begin_inset Graphics
 	filename imgs/iot_pf_4_16_20.jpg
-	width 10cm
+	width 15cm
 	height 8cm
-	keepAspectRatio
 
 \end_inset
 
@@ -1530,10 +1592,6 @@ IOT circuit block diagram
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -1549,9 +1607,8 @@ status open
 \align center
 \begin_inset Graphics
 	filename imgs/ML process flow (1).jpg
-	width 10cm
+	width 15cm
 	height 8cm
-	keepAspectRatio
 
 \end_inset
 
@@ -1805,7 +1862,7 @@ The puff-plume model maintains the advantages of the puff models and also
 \end_layout
 
 \begin_layout Subsubsection
-Why Gaussian model?
+Why Gaussian Model?
 \end_layout
 
 \begin_layout Standard
@@ -1815,12 +1872,12 @@ The Gaussian dispersion model has been selected as it being a more simplistic
 \end_layout
 
 \begin_layout Subsubsection
-Inverse Dispertion Module
+Inverse Dispersion Module
 \end_layout
 
 \begin_layout Standard
-This module is a subset of the air dispertion module, as the name suggests
- it uses the same technique as the conventional air dispertion module but
+This module is a subset of the air dispersion module, as the name suggests
+ it uses the same technique as the conventional air dispersion module but
  in reverse.
  This is used to calculate the emission rate from a stack using the air
  concentration, postion and wind velocity data as inputs 
@@ -1835,64 +1892,422 @@ literal "false"
  
 \end_layout
 
-\begin_layout Subsection
-Dataset and study area
+\begin_layout Section
+HARDWARE AND SOFTWARE REQUIREMENTS
 \end_layout
 
 \begin_layout Standard
-The objective of the prediction module is to predict the emission rate at
- the stack/chimney.
- To build and test the prediction model, 1000 dummy data points were generated
- using Gaussian distribution to randomly generate values for the feature
- set with guidance from an industry expert, this data was later split into
- training and testing that is 80% and 20% respectively.
- The feature set is chosen on the basis of what factors will correlate to
- the emission rate and the type of pollutants emitted from the stack.
- The feature set consists of independent variables: day, month, type of
- industry, size of the industry, and output efficiency of industry and dependent
- variable: emission rate.
-\end_layout
-
-\begin_layout Itemize
-Type of industry: what the industry/factory produces which will correlate
- to what gases are emitted out of the stack/chimney, this will be in the
- form of labeled classes.
+The entire system was built using the tools listed in Table 1.
  
 \end_layout
 
 \begin_layout Itemize
-Size of the industry: how big is the industry/factory which will correlate
- how much the maximum is outputted, this will be represented in the form
- of a scale from 1 to 10.
+Machine learning module was built using python 3.3.6 and Scikit-learn 0.21
+ also using Matplotlib 3.1.3 for graphing the results, the dummy data was
+ also generated using python 3.3.6.
 \end_layout
 
 \begin_layout Itemize
-Output efficiency: the amount of output it produces each day divided by
- the total amount of output it can ideally produce.
- 
-\end_layout
-
-\begin_layout Itemize
-Emission rate: this is defined as the amount of pollutants released from
- the stack per unit time.
+Air dispersion module was again built using the python 3.3.6 and Matplotlib
+ 3.1.3 for visualising the dispertion in space.
 \end_layout
 
 \begin_layout Standard
-The prediction module is also used on the collected meteorological data
- to predict the air velocity and direction, this is then applied to calculate
- the dispersion of pollutants in the air.
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sr.
+ No.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Software
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Version
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Python
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.3.6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Arduino IDE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.8
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Scikit-learn
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.21
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Matplotlib
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.1.3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Hardware and Software Requirements
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+COST ANALYSIS
 \end_layout
 
 \begin_layout Standard
-The feature set of this prediction model consists of independent variables:
- day, month, ambient temperature, ambient pressure, moisture content and
- dependent variables: the air velocity and air direction.
+Cost analysis of the project was done using the COCOMO cost analysis model,
+ the specific version utilized here is the Basic Model.
+ This version is good for quick, early, rough order of magnitude estimates
+ of software costs.
 \end_layout
 
 \begin_layout Standard
-Day and month are used to timestamp data points also temperature, pressure
- and moisture content of the ambient air is correlated to the velocity and
- direction of air.
+This project was classified in the organic category which is defined as
+ relatively small, simple software projects in which small teams with good
+ application experience work to a set of less than rigid requirements.
+\end_layout
+
+\begin_layout Standard
+Using this category we can use its related constraints (constants) that
+ is a=2.4 and b=1.05 (these constants were chosen as the project is classified
+ in the organic category) now using these values for the following formulas
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Effort=a*Loc^{b}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Duration=c*effort^{d}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Staffing=effort/duration$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+using these formulas where LOC is the estimated lines of code which is equal
+ to 1.5KLOC will give us the following results:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sr.
+ No.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Metric
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Result
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Effort
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Duration
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Staffing
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Cost Analysis
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1915,13 +2330,13 @@ The prediction module was tested on the dummy data set generated then the
 \begin_layout Standard
 The air dispersion module was implemented to calculate the concentration
  from a stationary steady state point source i.e.
- stack and the results were mapped onto a grayscale bitmap image where the
- pixel color represents the concentration.
+ stack and the results were plotted onto a grayscale bitmap image where
+ the pixel color represents the concentration.
  
 \end_layout
 
 \begin_layout Subsection
-Machine Learning module
+Machine Learning Module
 \end_layout
 
 \begin_layout Standard
@@ -1960,6 +2375,8 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\series bold
 Sr no.
 \end_layout
 
@@ -1969,6 +2386,8 @@ Sr no.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\series bold
 Name of ML model
 \end_layout
 
@@ -1978,6 +2397,8 @@ Name of ML model
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\series bold
 Parameters
 \end_layout
 
@@ -1987,6 +2408,8 @@ Parameters
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\series bold
 Min error 
 \begin_inset Formula $\frac{m}{hr}^{3}$
 \end_inset
@@ -1995,6 +2418,8 @@ Min error
 \end_layout
 
 \begin_layout Plain Layout
+
+\series bold
 \begin_inset VSpace smallskip
 \end_inset
 
@@ -2007,6 +2432,8 @@ Min error
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\series bold
 Max error 
 \begin_inset Formula $\frac{m}{hr}^{3}$
 \end_inset
@@ -2020,6 +2447,8 @@ Max error
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\series bold
 Avg.
  error 
 \begin_inset Formula $\frac{m}{hr}^{3}$
@@ -2045,6 +2474,8 @@ Avg.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\series bold
 Random Forest
 \end_layout
 
@@ -2117,6 +2548,8 @@ n estimators
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\series bold
 Multi-linear perceptron regression
 \end_layout
 
@@ -2181,6 +2614,8 @@ solvers
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\series bold
 Support vector regression
 \end_layout
 
@@ -2237,6 +2672,8 @@ kernel
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\series bold
 K-nearest neighbor
 \end_layout
 
@@ -2297,6 +2734,8 @@ algorithm
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\series bold
 Multi-linear Regression
 \end_layout
 
@@ -2376,7 +2815,7 @@ The following graphs shows the mean square error while the parameters are
 \end_layout
 
 \begin_layout Subsubsection
-Random forest (RF):
+Random Forest (RF):
 \end_layout
 
 \begin_layout Standard
@@ -2659,7 +3098,7 @@ As shown in Figure 4,5,6,7 and 8 that tuning the 'N estimators', 'max features'
 \end_layout
 
 \begin_layout Subsubsection
-Multi-linear perceptron (MLP) regression: 
+Multi-Linear Perceptron (MLP) regression: 
 \end_layout
 
 \begin_layout Standard
@@ -2826,7 +3265,7 @@ Figure 9,10 and 11 shows that after tuning activation function, number of
 \end_layout
 
 \begin_layout Subsubsection
-Support vector regression (SVR):
+Support Vector Regression (SVR):
 \end_layout
 
 \begin_layout Standard
@@ -2876,7 +3315,7 @@ Figure 12 shows that the SVR model was tuned on its kernel property and
 \end_layout
 
 \begin_layout Subsubsection
-K-nearest neighbor (KNN):
+K-Nearest Neighbor (KNN):
 \end_layout
 
 \begin_layout Standard
@@ -3009,7 +3448,7 @@ Figure 13 and 14 show that the KNN model was tuned on its algorithm and
 \end_layout
 
 \begin_layout Subsubsection
-Multi-linear Regression (MLR):
+Multi-Linear Regression (MLR):
 \end_layout
 
 \begin_layout Standard
@@ -3151,7 +3590,7 @@ The results of the prediction module clearly shows that the multi-perceptron
 \end_layout
 
 \begin_layout Subsection
-Air Dispersion module
+Air Dispersion Module
 \end_layout
 
 \begin_layout Standard
@@ -3159,8 +3598,8 @@ To calculate the concentration of the pollutant after emission from the
  stack, Gaussian air dispersion model was used for simulation, this was
  implemented using python programing language.
  The results were then represented using a thresholding functions to map
- different concentration levels with a color level, and this was outputted
- as an image.
+ different concentration levels with a color level, and this was saved as
+ an image file.
 \end_layout
 
 \begin_layout Standard

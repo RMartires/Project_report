@@ -1,0 +1,806 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="15" columns="4">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="5cm">
+<row endhead="true">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sr no.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Name of Author
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Title of paper
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Description
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gaganjot Kaur Kang, Jerry Zeyu Gao, Sen Chiao, Shengqiang Lu, and Gang Xie
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Air Quality Prediction: Big Data and Machine Learning Approaches
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+This paper reports recent literature study, reviews and compares current
+ research work on air quality evaluation based on big data analytics, machine
+ learning models
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Chen Xiaojun1, Liu Xianpeng2, Xu Peng3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+IOT- Based Air Pollution Monitoring and Forecasting System
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+It was also observed that adding more meteorological factors, the prediction
+ performance is greatly improved.
+\end_layout
+
+\begin_layout Itemize
+They used past 5 years data for training the model.
+ Which shows large sample data can improve performance and train the model
+ well.
+\end_layout
+
+\begin_layout Itemize
+The overall experiment used IOT and neural network for air pollution monitoring
+ and forecasting.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Temesegan Walelign Ayele , Rutvik Mehta
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Air pollution monitoring and prediction using IoT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+The proposed work on an air pollution monitoring and prediction system enables
+ to monitor air quality with the help IoT devices
+\end_layout
+
+\begin_layout Itemize
+For predicting the LSTM is implemented.
+ It has a quick convergence and reduces the training cycles with a good
+ accuracy
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Zhongshan Yang, Jian Wang
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A new air quality monitoring and early warning system: Air quality assessment
+ and air pollutant concentration prediction
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+In this paper, fuzzy comprehensive evaluation was used to determine the
+ main air pollutants and evaluate the level of air pollution.
+\end_layout
+
+\begin_layout Itemize
+The experimental results showed that the proposed model has the best accuracy
+ and stability compared to the other five individual models and five combined
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dixian Zhu 1,*, Changjie Cai 2, Tianbao Yang 1 and Xun Zhou 3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A Machine Learning Approach for Air Quality Prediction: Model Regularization
+ and Optimization
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+They have developed efficient machine learning methods for air pollutant
+ prediction.
+\end_layout
+
+\begin_layout Itemize
+They have formulated the problem as regularized MTL and employed advanced
+ optimization algorithms for solving different formulations.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mahmoud Reza Delavar 1,* , Amin Gholami 2, Gholam Reza Shiran 3, Yousef
+ Rashidi 4 , Gholam Reza Nakhaeizadeh 5, Kurt Fedra 6 and Smaeil Hatefi
+ Afshar 2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A Novel Method for Improving Air Pollution Prediction Based on Machine Learning
+ Approaches: A Case Study Applied to the Capital City of Tehran
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+A comparative study of machine learning methods including NARX, ANN and
+ SVR has been employed for air pollution prediction and the NARX finally
+ selected as the optimum one.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Xiuwen Yi1,2, Junbo Zhang2,1,+, Zhaoyuan Wang1,2, Tianrui Li1, Yu Zheng2,1,3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Deep Distributed Fusion Network for Air Quality Prediction
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+They proposed a DNN-based approach to predict air quality.
+\end_layout
+
+\begin_layout Itemize
+This approach achieves a higher accuracy in both general cases and sudden
+ changes
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+QU Hongquan , PANG Liping
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A Dynamic Method to Estimate Source Emission Rate and Predict Contaminant
+ Concentrations
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+This paper develops a dynamic method to estimate source emission rate and
+ predict contaminant concentrations in an enclosed space.
+\end_layout
+
+\begin_layout Itemize
+Based on a variable structure model ofconcentration, this method uses EKF
+ algorithm in combination with least squares method to realize state prediction
+ and parameter estimation at the same time.
+\end_layout
+
+\begin_layout Itemize
+This method could realize to track and real-time predict contaminant concentrati
+on, and identify source emission rate accurately and efficiently.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+N.
+ Li and S.
+ Thompson
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A Simplified Non-Linear Model Of NOx Emissions In A Power Station Boiler
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+This paper has presented a model of NO emissions for a power plant boiler.
+ It is modelled from the extended Zeldovich mechanism and require only a
+ few physical parameters obtained from experiments.
+\end_layout
+
+\begin_layout Itemize
+A set of new test data is used to compare the simulated values with real
+ measurements.
+ It is shown that good results are obtained from the model with real plant
+ input variables.
+\end_layout
+
+\begin_layout Itemize
+The model can also be used in other applications such as for optimising
+ boiler operation and combustion control system design.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+S.H.
+ Yu, Y.S.
+ Koo, E.Y.
+ Ha and H.Y.
+ Kwon
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PM-10 Forecasting using Neural Networks Model
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+In this paper, the study on the factors to affect the PM-10 pollution and
+ develop a PM-10 prediction model using MLP neural network model was done.
+\end_layout
+
+\begin_layout Itemize
+Especially, neural model has an advantage that there doesn’t need to analyze
+ the input data before the data are used, like regression model.
+\end_layout
+
+\begin_layout Itemize
+To improve the performance of the model, it needs to shorten the learning
+ period from year to quarter month and to learn and predict PM-10 with multiple
+ networks according to the PM-10 levels.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Moustafa.Elshafei, Mohamed A.Habib, Mansour Al-Dajani
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Prediction Of Boilers Emission Using Polynomial Networks
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+The paper provided an efficient polynomial network solution to the problem
+ of on-line monitoring of NOx emission from industrial boilers.
+\end_layout
+
+\begin_layout Itemize
+The effect of six variables were studied using 3D CFD simulation model and
+ used by polynomial networks for prediction of NOx and 02 in the exhaust
+ flue.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+S.
+ Raza, R.
+ Avilaand J.
+ Cervantes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A 3D Lagrangian Particle Model For The Atmospheric Dispersion Of Toxic Pollutant
+s
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+The Lagrangian Monte Carlo particle dispersion models work very efficiently
+ for the atmospheric dispersion of effluents.
+\end_layout
+
+\begin_layout Itemize
+In order to incorporate the effect of vertical wind shear the modiffed dispersio
+n coeffcient should be used with the Gaussian plume model.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+H.
+ Kaplan And N.
+ Dinar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A Lagrangian Dispersion Model For Calculating Concentration Distribution
+ Within A Built-Up Domain
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+In this paper a diagnostic model for calculating concentration distribution
+ of a passive scalar in a built-up area was presented.
+\end_layout
+
+\begin_layout Itemize
+The model requires measurements of the wind velocity and direction at a
+ reference height above the obstacles.
+\end_layout
+
+\begin_layout Itemize
+The model is able to predict 3-d concentration distributions and to identify
+ concentration accumulation at specific points.
+ the model succeeds in predicting concentration distribution quantitatively
+ and qualitatively and can be used to study many air pollution phenomena.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+By Peter De Haan’ And Mathias W.
+ Rotach
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A novel approach to atmospheric dispersion modelling: The Puff-Particle
+ Model
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+In the present paper, an approach to model dispersion is presented which
+ aims at combining the advantages of puff models and particle models.
+\end_layout
+
+\begin_layout Itemize
+The resulting model type is called Puff-Particle Model (PPM).
+ In the PPM, a few hundred puffs are simulated in three-dimensional space,
+ as compared to many thousand particles usually required in pure particle
+ models.
+\end_layout
+
+\begin_layout Itemize
+The concept of the PPM is very simple: while puff growth is described by
+ the concept of relative dispersion (thus accounting for eddies smaller
+ than the puff), the effect of meandering (i.e.
+ the variation between the trajectories of different puffs) due to larger
+ eddies (larger than the actual puff size) is simulated by introducing puff-cent
+re trajectories derived from particle trajectories from a particle model.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

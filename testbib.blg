@@ -1,0 +1,10 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: testbib.aux
+The style file: ieeetr.bst
+I couldn't open database file "citations/ExportedItems".bib
+---line 4 of file testbib.aux
+ : \bibdata{citations/working,"citations/ExportedItems"
+ :                                                     }
+I'm skipping whatever remains of this command
+I found no \citation commands---while reading file testbib.aux
+Database file #1: citations/working.bib
+(There were 2 error messages)

@@ -1,0 +1,254 @@
+% Encoding: UTF-8
+
+@Article{falkner2016paris,
+  author    = {Falkner, Robert},
+  title     = {The Paris Agreement and the new logic of international climate politics},
+  journal   = {International Affairs},
+  year      = {2016},
+  volume    = {92},
+  number    = {5},
+  pages     = {1107--1125},
+  publisher = {Oxford University Press},
+}
+
+@InProceedings{xiaojun2015iot,
+  author       = {Xiaojun, Chen and Xianpeng, Liu and Peng, Xu},
+  title        = {IOT-based air pollution monitoring and forecasting system},
+  booktitle    = {2015 International Conference on Computer and Computational Sciences (ICCCS)},
+  year         = {2015},
+  pages        = {257--260},
+  organization = {IEEE},
+}
+
+@Article{singh2018air,
+  author  = {Singh, Kulshresth},
+  title   = {Air pollution modeling},
+  journal = {International Journal of Advance Research, Ideas and Innovations in Technology},
+  year    = {2018},
+  volume  = {4},
+  number  = {3},
+}
+
+@Article{de1998novel,
+  author    = {De Haan, Peter and Rotach, Mathias W},
+  title     = {A novel approach to atmospheric dispersion modelling: The Puff-Particle Model},
+  journal   = {Quarterly Journal of the Royal Meteorological Society},
+  year      = {1998},
+  volume    = {124},
+  number    = {552},
+  pages     = {2771--2792},
+  publisher = {Wiley Online Library},
+}
+
+@Article{mohandes1998neural,
+  author    = {Mohandes, Mohamed A and Rehman, Shafiqur and Halawani, Talal O},
+  title     = {A neural networks approach for wind speed prediction},
+  journal   = {Renewable Energy},
+  year      = {1998},
+  volume    = {13},
+  number    = {3},
+  pages     = {345--354},
+  publisher = {Elsevier},
+}
+
+@Article{kang2018air,
+  author  = {Kang, Ganganjot Kaur and Gao, Jerry Zeyu and Chiao, Sen and Lu, Shengqiang and Xie, Gang},
+  title   = {Air quality prediction: Big data and machine learning approaches},
+  journal = {International Journal of Environmental Science and Development},
+  year    = {2018},
+  volume  = {9},
+  number  = {1},
+  pages   = {8--16},
+}
+
+@InProceedings{ayele2018air,
+  author       = {Ayele, Temesegan Walelign and Mehta, Rutvik},
+  title        = {Air pollution monitoring and prediction using IoT},
+  booktitle    = {2018 Second International Conference on Inventive Communication and Computational Technologies (ICICCT)},
+  year         = {2018},
+  pages        = {1741--1745},
+  organization = {IEEE},
+}
+
+@Article{zhu2018machine,
+  author    = {Zhu, Dixian and Cai, Changjie and Yang, Tianbao and Zhou, Xun},
+  title     = {A machine learning approach for air quality prediction: Model regularization and optimization},
+  journal   = {Big data and cognitive computing},
+  year      = {2018},
+  volume    = {2},
+  number    = {1},
+  pages     = {5},
+  publisher = {Multidisciplinary Digital Publishing Institute},
+}
+
+@Article{yang2017new,
+  author    = {Yang, Zhongshan and Wang, Jian},
+  title     = {A new air quality monitoring and early warning system: Air quality assessment and air pollutant concentration prediction},
+  journal   = {Environmental research},
+  year      = {2017},
+  volume    = {158},
+  pages     = {105--117},
+  publisher = {Elsevier},
+}
+
+@Article{delavar2019novel,
+  author    = {Delavar, Mahmoud Reza and Gholami, Amin and Shiran, Gholam Reza and Rashidi, Yousef and Nakhaeizadeh, Gholam Reza and Fedra, Kurt and Hatefi Afshar, Smaeil},
+  title     = {A Novel Method for Improving Air Pollution Prediction Based on Machine Learning Approaches: A Case Study Applied to the Capital City of Tehran},
+  journal   = {ISPRS International Journal of Geo-Information},
+  year      = {2019},
+  volume    = {8},
+  number    = {2},
+  pages     = {99},
+  publisher = {Multidisciplinary Digital Publishing Institute},
+}
+
+@InProceedings{yi2018deep,
+  author       = {Yi, Xiuwen and Zhang, Junbo and Wang, Zhaoyuan and Li, Tianrui and Zheng, Yu},
+  title        = {Deep distributed fusion network for air quality prediction},
+  booktitle    = {Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining},
+  year         = {2018},
+  pages        = {965--973},
+  organization = {ACM},
+}
+
+@Article{li1996simplified,
+  author    = {Li, N and Thompson, S},
+  title     = {A simplified non-linear model of NOx emissions in a power station boiler},
+  year      = {1996},
+  publisher = {IET},
+}
+
+@InProceedings{elshafei2006prediction,
+  author       = {Elshafei, Moustafa and Habib, Mohamed A and Al-Dajani, Mansour},
+  title        = {Prediction of boilers emission using polynomial networks},
+  booktitle    = {2006 Canadian Conference on Electrical and Computer Engineering},
+  year         = {2006},
+  pages        = {823--827},
+  organization = {IEEE},
+}
+
+@Article{raza20023d,
+  author    = {Raza, S and Avila, R and Cervantes, J},
+  title     = {A 3D Lagrangian particle model for the atmospheric dispersion of toxic pollutants},
+  journal   = {International journal of energy research},
+  year      = {2002},
+  volume    = {26},
+  number    = {2},
+  pages     = {93--104},
+  publisher = {Wiley Online Library},
+}
+
+@InProceedings{qu2009dynamic,
+  author       = {Qu, Hongquan and Pang, Liping},
+  title        = {A dynamic method to estimate source emission rate and predict contaminant concentrations},
+  booktitle    = {2009 2nd International Congress on Image and Signal Processing},
+  year         = {2009},
+  pages        = {1--3},
+  organization = {IEEE},
+}
+
+@InProceedings{yu2008pm,
+  author       = {Yu, SH and Koo, YS and Ha, EY and Kwon, HY},
+  title        = {PM-10 Forecasting Using Neural Networks Model},
+  booktitle    = {2008 International Conference on Computational Intelligence for Modelling Control \& Automation},
+  year         = {2008},
+  pages        = {426--429},
+  organization = {IEEE},
+}
+
+@Article{kaplan1996lagrangian,
+  author    = {Kaplan, H and Dinar, N},
+  title     = {A Lagrangian dispersion model for calculating concentration distribution within a built-up domain},
+  journal   = {Atmospheric Environment},
+  year      = {1996},
+  volume    = {30},
+  number    = {24},
+  pages     = {4197--4207},
+  publisher = {Elsevier},
+}
+@inproceedings{inproceedings,
+	author = {Abdel-Rahman, Adel},
+	year = {2008},
+	month = {10},
+	pages = {},
+	title = {ON THE ATMOSPHERIC DISPERSION AND GAUSSIAN PLUME MODEL}
+}
+
+@Article{Liaw2001,
+  author  = {Liaw, Andy and Wiener, Matthew},
+  title   = {Classification and Regression by RandomForest},
+  journal = {Forest},
+  year    = {2001},
+  volume  = {23},
+  month   = {11},
+}
+
+@InCollection{Drucker1997,
+  author        = {Harris Drucker and Burges, Christopher J. C. and Linda Kaufman and Alex J. Smola and Vladimir Vapnik},
+  title         = {Support Vector Regression Machines},
+  booktitle     = {Advances in Neural Information Processing Systems 9},
+  year          = {1997},
+  editor        = {M. C. Mozer and M. I. Jordan and T. Petsche},
+  publisher     = {MIT Press},
+  pages         = {155--161},
+  url           = {http://papers.nips.cc/paper/1238-support-vector-regression-machines.pdf},
+  __markedentry = {[vaylon:]},
+}
+
+@Article{Erturul2017,
+  author        = {Erturul, mer Faruk and Taluk, Mehmet Emin},
+  title         = {A Novel Version of k Nearest Neighbor},
+  journal       = {Appl. Soft Comput.},
+  year          = {2017},
+  volume        = {55},
+  number        = {C},
+  month         = jun,
+  pages         = {480–490},
+  issn          = {1568-4946},
+  doi           = {10.1016/j.asoc.2017.02.020},
+  url           = {https://doi.org/10.1016/j.asoc.2017.02.020},
+  __markedentry = {[vaylon:6]},
+  address       = {NLD},
+  issue_date    = {June 2017},
+  keywords      = {Dependent nearest neighbor, k nearest neighbor, Dependency, Similarity},
+  numpages      = {11},
+  publisher     = {Elsevier Science Publishers B. V.},
+}
+
+@Online{CPCB,
+  author = {Central Pollution Control Board, Ministry of Environment, Forest and Climate Change, Govt. of India},
+  title  = {Central Pollution Control Board},
+  year   = {2019},
+  date   = {2019-09-06},
+  url    = {https://cpcb.nic.in/},
+}
+
+@Article{pal1992multilayer,
+  author = {Pal, Sankar K and Mitra, Sushmita},
+  title  = {Multilayer perceptron, fuzzy sets, classifiaction},
+  year   = {1992},
+}
+
+@Article{youd2002revised,
+  author    = {Youd, T Leslie and Hansen, Corbett M and Bartlett, Steven F},
+  title     = {Revised multilinear regression equations for prediction of lateral spread displacement},
+  journal   = {Journal of Geotechnical and Geoenvironmental Engineering},
+  year      = {2002},
+  volume    = {128},
+  number    = {12},
+  pages     = {1007--1017},
+  publisher = {American Society of Civil Engineers},
+}
+
+@Article{kura2019feasibility,
+  author    = {Kura, Bhaskar and Jilla, Abhinay},
+  title     = {Feasibility of the Inverse-Dispersion Model for Quantifying Drydock Emissions},
+  journal   = {Atmosphere},
+  year      = {2019},
+  volume    = {10},
+  number    = {6},
+  pages     = {328},
+  publisher = {Multidisciplinary Digital Publishing Institute},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

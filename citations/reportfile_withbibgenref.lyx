@@ -1,0 +1,2603 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\begin_modules
+customHeadersFooters
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1.5cm
+\rightmargin 1.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Pollution Detection and Prediction System
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\series bold
+Project Report
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+Submitted in partial fulfillment of the requirements for the 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+Degree of Bachelors in Engineering
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+by
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "23col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Rohit Martires
+\end_layout
+
+\begin_layout Plain Layout
+(Reg no.
+ 1613032)
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "24col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Swizel Monteiro
+\end_layout
+
+\begin_layout Plain Layout
+(Reg no.
+ 1613033)
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "24col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Vranda Asolkar
+\end_layout
+
+\begin_layout Plain Layout
+(Reg no.
+ 1613001)
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "24col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Vaylon Fernandes
+\end_layout
+
+\begin_layout Plain Layout
+(Reg no.
+ 1613017)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 3cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\shape italic
+Under Guidance of
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Dr.
+ Shreyas Simu
+\end_layout
+
+\begin_layout Plain Layout
+(Internal Guide)
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Dr.
+ Varsha Turkar
+\end_layout
+
+\begin_layout Plain Layout
+(Internal Guide)
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Mr.
+ Vassant Salgaonkar
+\end_layout
+
+\begin_layout Plain Layout
+(External Guide)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+12/21/19
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+INTRODUCTION
+\end_layout
+
+\begin_layout Standard
+With the rapid growth of economy, industrial activities are increasing more
+ frequently, leading to faster rate of pollution this rate is only increasing
+ and if not kept in check can cause harmful effects to mankind and other
+ living organisms.
+ This effects are amplified if no regulation is kept in effect.
+ Environmental pollution is one of the most serious problems facing humanity
+ and other life forms on our planet today, industrial pollution contributing
+ a major share in it.
+ Industrial pollution is generally referred to the undesirable outcome when
+ factories or other industrial plants emits harmful by-products and waste
+ into the environment such as emissions to air or water bodies.
+ The six major types of pollutants are carbon monoxide, hydrocarbons, nitrogen
+ oxides, particulates, Sulphur dioxide and photochemical oxidants.
+\end_layout
+
+\begin_layout Subsection
+Project area
+\end_layout
+
+\begin_layout Standard
+The Paris agreement’s central aim is to strengthen the global response to
+ the threat of climate change by keeping a global temperature rise this
+ century well below 2 degrees Celsius above pre-industrial levels.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "falkner2016paris"
+literal "false"
+
+\end_inset
+
+ Long term exposure to polluted air and water cause’s chronic health problems
+ making the issue of industrial pollution into a severe one .It also lowers
+ the air quality in surrounding areas which causes many respiratory disorders
+ affecting both lungs and heart.
+ Not just the humans, but the marine life is greatly deteriorating and affected
+ with the extent of increasing industrial pollution.
+ However with effective measures, the ill effect of industrial pollution
+ could be reduced significantly.
+ The prevention and control of industrial pollution are highly encouraged
+ by government worldwide.
+ Simple things like purchasing energy-efficient equipment and products made
+ from recycled materials for your organization.
+ Having industrial pollution control policies in place and guiding strictly
+ upon them.
+ 
+\end_layout
+
+\begin_layout Subsection
+Motivation
+\end_layout
+
+\begin_layout Standard
+The Draft Environment Laws (Amendment) Bill, 2015 was published by the Ministry
+ of Environment, Forest and Climate Change (MoEFCC) on October 7, 2015.
+ The objectives of the Draft Bill are to provide for “effective deterrent
+ penal provisions” and to introduce “the concept of monetary penalty for
+ violations and contraventions
+\begin_inset Quotes erd
+\end_inset
+
+.There are no effective strict rules for pollution monitoring and control
+ in industries yet.
+ But the government of India is in the midst of making industrial pollution
+ control and monitoring laws more strict.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Subsection
+Objectives of the project
+\end_layout
+
+\begin_layout Standard
+The main objective of the project is to monitor the pollutants emitted from
+ an industry/factory and predict the future dispersion of these pollutants
+ also to then output these results in the form of reports for industries/factori
+es.
+ To accomplish the main objective can be broken down into 3 sub-objectives
+ that are
+\end_layout
+
+\begin_layout Itemize
+To create a series of gadgets which can measure the emission parameters
+ and the meteorological parameters and also that can withstand the environment
+ conditions present near the stack/chimney and transmit this information
+ to a server that is Internet of things.
+\end_layout
+
+\begin_layout Itemize
+To develop a module that uses machine learning models with data acquired
+ from the cloud server to predict future emission parameter values.
+ 
+\end_layout
+
+\begin_layout Itemize
+To create a module that simulates the movement of fluid particles (pollutant)
+ in air using air dispersion models with meteorological data.
+\end_layout
+
+\begin_layout Subsection
+Dataset and study area
+\end_layout
+
+\begin_layout Standard
+The objective of the prediction module is to predict the emission rate at
+ the stack/chimney.
+ To build and test the prediction model, 1000 dummy data points were generated
+ using Gaussian distribution to randomly generate values for the feature
+ set with guidance from an industry expert, this data was later split into
+ training and testing that is 80% and 20% respectively.
+ The feature set is chosen on the bases on what factors will correlate to
+ the emission rate and the type of pollutants emitted from the stack.
+ The feature set consists of independent variables: day, month, type of
+ industry, size of industry, and output efficiency of industry and dependent
+ variable: emission rate.
+\end_layout
+
+\begin_layout Itemize
+Type of industry: what the industry/factory produces which will correlate
+ to what gases are emitted out of the stack/chimney, this will be in the
+ form of labeled classes.
+ 
+\end_layout
+
+\begin_layout Itemize
+Size of industry: how big is the industry/factory which will correlate how
+ much the maximum is outputted, this will be represented in the form of
+ a scale from 1 to 10.
+\end_layout
+
+\begin_layout Itemize
+Output efficiency: the amount of output it produces each day divided by
+ the total amount of output it can ideally produce.
+ 
+\end_layout
+
+\begin_layout Itemize
+Emission rate: this is defined as the amount of pollutants released from
+ the stack per unit time.
+\end_layout
+
+\begin_layout Standard
+The prediction module is also used on the collected metrological data to
+ predict the air velocity and direction, this is then applied to calculate
+ the dispersion of pollutants in air.
+\end_layout
+
+\begin_layout Standard
+The feature set of this prediction model consists of independent variables:
+ day, month, ambient temprature, ambient pressure, moisture content and
+ dependent variables: air velocity and air direction.
+\end_layout
+
+\begin_layout Standard
+Day and month are used to timestamp data points also temeprature, pressure
+ and moisture content of the ambient air is correlated to the velocity and
+ direction of air.
+\end_layout
+
+\begin_layout Section
+LITRATURE SURVEY
+\end_layout
+
+\begin_layout Itemize
+In 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kaplan1996lagrangian"
+literal "false"
+
+\end_inset
+
+ the authors proposed a diagnostic model for calculating concentration distribut
+ion of a passive scalar in a built-up area Their model basically requires
+ measurements of the wind velocity and direction at a certain reference
+ height above the obstacles.
+ Their model is effectively able to predict 3-d concentration distributions
+ and is also able to identify concentration accumulation at specific and
+ precise points.
+ The proposed model succeeds in predicting concentration distribution both
+ quantitatively and qualitatively.
+ The model can also be further used to study many air pollution phenomena.
+ 
+\end_layout
+
+\begin_layout Itemize
+The authors of 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "de1998novel"
+literal "false"
+
+\end_inset
+
+ proposed a detailed approach to model dispersion which widely aims at combining
+ the advantages of puff models and particle models.
+ Their resulting model type is called Puff-Particle Model (PPM).
+ In this PPM, they collectively simulated few hundred puffs in three dimensional
+ space, in comparison to many thousand particles usually required in pure
+ particle models.
+ The overall PPM concept is quite simple : while puff growth is described
+ by the concept of relative dispersion which accounts for eddies smaller
+ than the puff, causing effect of meandering ie the variation between the
+ trajectories of different puffs due to larger eddies those larger than
+ the actual puff size and it is simulated by introducing puff-centre trajectorie
+s derived from particle trajectories from a particle model.
+ 
+\end_layout
+
+\begin_layout Itemize
+In 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "raza20023d"
+literal "false"
+
+\end_inset
+
+ the authors proposed that the Lagrangian Monte Carlo particle dispersion
+ models works very effectively for the atmospheric dispersion of effluents.
+ They also mentioned that in order to incorporate the effect of vertical
+ wind shear, the modified dispersion coefficient should be used with the
+ existing Gaussian plume model.
+ As an alternative, they came up with a much reliable 3D numerical model
+ which may be used at a slightly greater computational cost.
+ This numerical model can also be used in a complex topography region with
+ hills and mountains, where mostly the conventional Gaussian models seem
+ to be less effective and mainly not suitable.
+ 
+\end_layout
+
+\begin_layout Itemize
+The authors of 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "li1996simplified"
+literal "false"
+
+\end_inset
+
+ presented a model of NO emissions for a power plant boiler.
+ They have modelled it from the extended Zeldovich mechanism and it is observed
+ that it requires only a few physical parameters obtained from experiments.
+ They used a set of fresh new test data to compare the simulated values
+ with real measurements.
+ It was observed that model performed well with real plant input variables.
+ Their proposed model can also be used in other applications such as for
+ optimising boiler operation and combustion control system design.
+\end_layout
+
+\begin_layout Itemize
+In 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "elshafei2006prediction"
+literal "false"
+
+\end_inset
+
+ the authors proposed a model which provided an efficient polynomial network
+ solution to the problem of tedious on-line monitoring of NOx emission from
+ industrial boilers.
+ They considered the effect of six variables and studied them using 3D CFD
+ simulation model and used by polynomial networks for prediction of NOx
+ and O2 in the exhaust flue.
+ The prediction of NOx and O2 are both essential for efficient operation
+ and functioning of the boiler while maintaining the NOx pollutant within
+ a tolerable limit.
+ The proposed soft sensor has a simple modular structure for low cost implementa
+tion which is greatly an advantage.
+ The soft sensor can also be integrated with the boiler control system for
+ optimization of boilers operation increasing the effectiveness.
+\end_layout
+
+\begin_layout Itemize
+In 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "yu2008pm"
+literal "false"
+
+\end_inset
+
+ the authors presented a model, to study on the factors to affect the PM-10
+ pollution and they developed a PM-10 prediction model using MLP neural
+ network model.
+ They used neural model especially because it has an advantage that there
+ doesn’t exist a need to analyse the input data before the data are used,
+ like that in regression model.
+ Also, to improve and optimize the performance of the proposed model , it
+ required to shorten the learning period from year to quarter month and
+ to learn and predict PM-10 with multiple networks according to the PM-10
+ levels.
+ 
+\end_layout
+
+\begin_layout Itemize
+The authors of 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "xiaojun2015iot"
+literal "false"
+
+\end_inset
+
+ proposed a good solution to the complexity of air pollution.
+ It was observed that use of a large number of sensors ensures monitoring
+ accuracy, greatly reduces monitoring cost and makes monitoring data in
+ monitoring area more perfect and systematic.
+ They also noticed that addition of more meteorological factors would highly
+ improve the prediction performance.
+ They used past 5 years data for training the model, showing that large
+ sample data can increase performance and train the model well.
+ The overall experiment used IOT and neural network for air pollution monitoring
+ and forecasting.
+ 
+\end_layout
+
+\begin_layout Itemize
+The authors of 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "yang2017new"
+literal "false"
+
+\end_inset
+
+ proposed an Air quality monitoring system with and an early warning system,
+ including an assessment module and a forecasting module.
+ The model was able to successfully identify the major pollutants in two
+ cities.
+ The experimental results showed that the proposed model had the best accuracy
+ and stability compared to GRNN, ENN, MCSDE-ENN and MCSDE-EEMD-ENN.
+ 
+\end_layout
+
+\begin_layout Itemize
+In 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kang2018air"
+literal "false"
+
+\end_inset
+
+ the authors compared research work on air quality evaluation based on big
+ data analytics, machine learning models and techniques and also highlighted
+ some future resource issues, needs and challenges.
+ They stated that the accuracy of the air quality evaluation and assessment
+ is affected by device faults, battery issues and sensor network.
+ They mentioned due to this issue there is a strong need for research in
+ data quality modelling and automatic real-time validation.
+ They also mentioned that air in a city might be considered as a multi-level
+ air system.
+ The need for research and development of real-time air quality monitoring
+ and evaluation and analysis on multiple levels was also highlighted.
+ They said that smart cities in the future must support real time air quality
+ monitoring, evaluation and prediction.
+ This gives rise to the need to develop integrated and dynamic air quality
+ model using hybrid machine learning models.
+\end_layout
+
+\begin_layout Itemize
+The authors of 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ayele2018air"
+literal "false"
+
+\end_inset
+
+ proposed a IOT based air quality monitoring and prediction system.
+ In this model sensor data of a humidity and temperature sensor (DHT11)
+ and a gas sensor (MQ135) was stored on the cloud using a web-enabled microcontr
+oller (ESP8266).
+ This data was then processed (converted into CSV) and used to train the
+ machine learning model and forecast the pollution rate.
+ The machine learning algorithm used is called Long Short Term Memory (LSTM)
+ which is a modification Recurrent Neural networks (RNN).
+\end_layout
+
+\begin_layout Itemize
+In 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "zhu2018machine"
+literal "false"
+
+\end_inset
+
+ the authors proposed refined models for the prediction of hourly concentration
+ of air pollution using meteorological data of previous days by formulating
+ the prediction over a 24 hour period as a multi-task learning (MTL) problem.
+ Their results showed that the proposed light formulation achieved the best
+ result compared to Baseline, and heavy formulation.
+ 
+\end_layout
+
+\begin_layout Itemize
+In 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "delavar2019novel"
+literal "false"
+
+\end_inset
+
+ the authors conducted a comparative study of machine learning methods including
+ NARX, ANN and SVR which been employed for air pollution prediction and
+ the NARX was selected as the optimum one.
+ The effective parameters for air pollution prediction have been determined
+ in this research.
+ This research used daily data of the pollutants.
+ They also mentioned that the quality of the proposed model can be significantly
+ improved if hourly data is implemented .Considering the importance of air
+ pollution problem, they recommended that the number of air pollution measuring
+ stations increases so as to allow for a better fit on the air pollution
+ prediction.
+ 
+\end_layout
+
+\begin_layout Itemize
+The authors of 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "yi2018deep"
+literal "false"
+
+\end_inset
+
+ proposed a DNN-based approach to predict air quality.
+ For this purpose they adopted a novel distributed fusion architecture to
+ fuse heterogeneous urban data, which can simultaneously capture the individual
+ and holistic effects from all influential factors affecting air quality.
+ This approach achieves a higher accuracy in both general cases and sudden
+ changes.
+\end_layout
+
+\begin_layout Itemize
+The authors of 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "qu2009dynamic"
+literal "false"
+
+\end_inset
+
+ developed a dynamic model to estimate source emissions and predict contaminant
+ concentration in closed spaces.
+ This was realised by using Extended Kalman Filter(EKF) algorithm and least
+ square method based on an established variable –structural contaminant
+ model.
+ Their model could realize to track and real-time predict contaminant concentrat
+ion, and identify source emission rate accurately and efficiently.
+\end_layout
+
+\begin_layout Section
+Gap Analysis 
+\end_layout
+
+\begin_layout Standard
+The previous work in this field included setting up monitoring stations
+ to measure the amount of pollutants in the atmosphere .This was done using
+ network of sensors topologically arranged as a grid.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "xiaojun2015iot"
+literal "false"
+
+\end_inset
+
+ These sensors are usually placed in a large area for e.g.
+ around a city or a large industry.
+ The placement of sensors around a large area can reduce the accuracy of
+ the model.
+ This happens because of external factors like weather, noise, etc.
+ affect the accuracy of the sensors to a large extent.
+ Also, these models can’t accurately reflect the extent of pollution a particula
+r industry is causing due to the large area.
+ Some previous models also predicted pollutant concentration for the future
+ based on machine learning algorithms.
+ Also there were some models that predicted dispersion of pollutants from
+ a point source i.e.
+ the area to which the pollutants will spread to.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "singh2018air"
+literal "false"
+
+\end_inset
+
+ No previous models have linked the emission rate of the stack and the dispersio
+n from the source(stack) together i.e.
+ they have not been predicting the emission rate and calculating the spread
+ in the same model.
+\end_layout
+
+\begin_layout Standard
+The proposed model will however predict emission rate at the stack and use
+ it as a source to calculate dispersion using air dispersion models.
+ This will be done by placing sensors at the source (stack).
+ Placing the sensors at the source will help the sensors take more accurate
+ readings as the sensors will not be affected by external factors to a large
+ extent as compared to the previous models.
+ This will allow us to take more accurate readings and hence make more accurate
+ predictions of future emission rates.
+\end_layout
+
+\begin_layout Section
+METHODOLOGY
+\end_layout
+
+\begin_layout Standard
+In figure 1: methodology flow diagram, the overall setup consists of network
+ of sensors that will be mounted in a specific industry, the data collected
+ from these sensors will be stored on the server.
+ These sensors measure the air parameters in terms of ambient air as well
+ as stack emission.
+ On this data, we apply various machine learning algorithms for prediction
+ of emission rate.
+ The air dispersion models are then applied on the predicted emission rate
+ to calculate the dispersion of pollutants from the source that is at the
+ stack level.
+ The entire system is basically divided into two broad categories: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../imgs/full block diag.jpeg
+	width 10cm
+	height 10cm
+	keepAspectRatio
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Methodology flow diagram
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../imgs/IOTpf.jpeg
+	width 13cm
+	height 13cm
+	keepAspectRatio
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+IOT process flow
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Internet of things: the iot process flow begins with o Air meteorological
+ parameters, which are to be measured using various sensors.
+ On the basis of guidelines laid by central pollution control board (cpcb)
+ ,it is divided mainly into ambient air parameters and stack emission parameters.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Ambient air parameters, refers to concentrations of pollutants in the air,
+ typically outdoor air.
+ The criteria for this is based upon protection of human health, crops,
+ ecosystems as well as for planning and other useful purposes.
+ 
+\end_layout
+
+\begin_layout Itemize
+Stack emission parameters, parameters required to be monitored in the stack
+ emissions using continuous emission monitoring systems, are industry specific.
+ 
+\end_layout
+
+\begin_layout Itemize
+Consideration of parameters to predict q and v, we considered all the air
+ meteorological parameters inorder to predict the value of v( velocity of
+ wind) and q( emission rate).
+ 
+\end_layout
+
+\begin_layout Itemize
+Data collection using sensors, with the help of various sensors employed
+ in a specific industry, huge amount of data was collected.
+ 
+\end_layout
+
+\begin_layout Itemize
+Building up of cloud architecture, the data collected from the sensors is
+ uploaded and stored on the cloud setup.
+ The sensor network is connected to the cloud server 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../imgs/MLpf.jpeg
+	width 13cm
+	height 13cm
+	keepAspectRatio
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Machine Leaning process flow
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Machine learning: the machine learning process flow begins with 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Generation of dummy data in python, huge amount of data, in bulk is generated
+ using python.
+ The dummy data was not truly random, it was correlated with various meteorologi
+cal air parameters so that the machine could be trained well.
+ It was observed that by adding more meteorological factors, the prediction
+ performance is greatly improved and large sample data can improve performance
+ and train the model well.
+\end_layout
+
+\begin_layout Itemize
+Implementation of ml algorithms, machine learning algorithms were then implement
+ed on the created dummy data to predict the value of q-emission rate and
+ v-velocity of wind.
+ For this purpose, the data was divided into training set (80%) and test
+ set (20%).
+ If the error reduces for training as well as test data, the process is
+ continued.
+ Else if the error reduces only for training data, but increases for test
+ data then the process is terminated.
+ This could greatly increase chances of generalizability of the algorithm.
+ 
+\end_layout
+
+\begin_layout Itemize
+Performance check, was then conducted on the predicted emission rate.
+ The mean square error was measured in each case to check for accuracy.
+ 
+\end_layout
+
+\begin_layout Itemize
+Optimization of algorithms, various algorithms were optimized in such a
+ way so as to reduce the error as minimum as possible thereby increasing
+ the accuracy of prediction.
+ On this basis, the best algorithm was selected.
+ 
+\end_layout
+
+\begin_layout Itemize
+Using Gaussian model to calculate dispersion, the extent of pollution spread
+ .we chose Gaussian dispersion model since it was the most optimal model
+ in terms of computing power.
+ 
+\end_layout
+
+\begin_layout Itemize
+Prediction of air pollution, in this manner the entire process of prediction
+ of pollution and calculation of its spread is done.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+MACHINE LEARNING ALGORITHMS 
+\end_layout
+
+\begin_layout Standard
+Based on previous work (cite) the various machine learning algorithms were
+ compared on the basis of the pollutants considered , accuracy , simplicity,
+ robustness, flexibility , sensors used, and other factors that affect the
+ choice of models .The following proved to have best results hence these
+ were used:- 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Kth Nearest neighbors (KNN)-
+\series default
+In this machine learning model similar things are considered to be in close
+ proximity to each other.
+ The value of K indicates the nearest neighbors that are taken for consideration.
+ This similarity criterion can be on the basis of distance, or other similar
+ factors .It uses a database which is separated into several classes to predict
+ classification of a new sample point.
+ It is extended as a regression technique wherein the output of the point
+ is the average or median value of its nearest neighbors.
+ In KNN the training data required is very less, which means there is lack
+ of generalization, from (https://www.analyticsvidhya.com/blog/2018/03/introductio
+n-k-neighbours-algorithm-clustering/ ).
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Support vector Regression (SVR)-
+\series default
+ SVR is a supervised machine learning algorithm which is be used for both
+ classification and regression problems.
+ In this algorithm a data point is plotted in n dimensional space after
+ which it is classified by finding the plane that will differentiate the
+ classes very well.
+ The hyperplane which is considered is a linear separator of any dimension
+ (line, plane, hyperplane).
+ The training points are used in decision function and are called support
+ vectors, from (https://www.analyticsvidhya.com/blog/2017/09/understaing-support-v
+ector-machine-example-code/ ).
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Random Forest-
+\series default
+ The decision tree is a decision support tool.
+ It uses graph in the form of a tree to show possible consequences.
+ Random forest operates by constructing multiple decision trees during training
+ phase.
+ The decision of the majority of the trees is chosen by the random forest
+ as the final decision.
+ When a training data set is considered with targets and features, some
+ set of rules are formulated, these rules are used to perform predictions.
+ It identifies the most important features out of all the available features
+ in the training dataset.
+ The lager the no.
+ of trees the more accurate the results will be.
+ Random forest classifier handles missing values and overfitting problem
+ doesn’t exist, from (https://medium.com/@Synced/how-random-forest-algorithm-work
+s-in-machine-learning-3c0fe15b6674 ) .
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Multi linear regression (MLR)-
+\series default
+ This technique uses several explanatory variables to predict the outcome
+ of response variable.
+ A linear relationship is modelled between these independent and response
+ variable (dependent).Prediction about one variable is done based on the
+ information about the other variable.
+ In this case the independent variables should not be too highly correlated
+ with each other, from (https://www.investopedia.com/terms/m/mlr.asp ).
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Neural Network-
+\series default
+ it is a model that mimics the way the human brain operates.
+ A neuron in a neural network is a mathematical function that collects and
+ classifies information according to some specific architecture.
+ A neural network contains layers of interconnected nodes .Each connection
+ is associated with a weight that is multiplied with the input value .Each
+ neuron has an activation function that defines the output of the neuron
+ which is used to introduce non linearity in the network model, from (https://ww
+w.investopedia.com/terms/n/neuralnetwork.asp ).
+\end_layout
+
+\begin_layout Standard
+These Machine learning algorithms were implemented using python and the
+ mean square error of each of these was measured to check for accuracy.
+\end_layout
+
+\begin_layout Subsection
+AIR DISPERSION MODEL
+\end_layout
+
+\begin_layout Subsubsection
+Gaussian Dispersion Model 
+\end_layout
+
+\begin_layout Standard
+In Gaussian dispersion model
+\begin_inset CommandInset citation
+LatexCommand cite
+key "singh2018air"
+literal "false"
+
+\end_inset
+
+, the concentration of pollution downwind from a source is treated as spreading
+ outward from the stack.
+ A point source was considered somewhere in the air where a pollutant is
+ released at a constant rate Q (kg/s).
+ The wind is blowing continuously in a direction x (measured in meters from
+ the source) with a speed U (m/s).
+ The plume spreads as it moves in the x direction such that the local concentrat
+ions C(x,y,z) (kg/m3) at any point in space form distributions which have
+ shapes that are Gaussian or normal in planes normal to the x direction
+ i.e.
+ the concentration of the pollution will be maximum at the source and will
+ gradually disperse where this dispersion follows a gaussian curve.
+ The maximum concentration is in the direction of the wind and there will
+ be lateral dispersion on the yz plane.
+ The more the dispersion area, the more diluted will be the pollutant.
+ This model has some basic assumptions that have to be taken into consideration.
+ The emission should be in a steady state (emitted at a constant rate ).
+ The wind speed has to be constant Terrain is at Pollutant is conservative
+ (no gravity fallout).
+ No ground absorption Turbulent diffusion in x-direction is neglected.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Lagrangian Model 
+\end_layout
+
+\begin_layout Standard
+The lagrangian model determine the trajectory of air pollutants.
+ The pollutants are tracked as air parcels which move along trajectories
+ determined by wind field, the buoyancy and turbulence effects.
+ The trajectory calculations are based on ordinary differential equations(ODE)
+ instead of partial differential equations which are used in the gaussian
+ dispersion model.
+ The estimation of the concentration field is given by the final distribution
+ of a large number of particles.
+ The particles can be tracked from the source area to the area of reception.
+ The computational cost of these model is independent of the output grid
+ resolution and hence they are very efficient for short-range modelling.
+ For long range simulations, however, the computational cost increases as
+ there is a need to calculate a large number of single trajectories.
+ Also a large amount of computational power is required to handle a large
+ number of puffs.
+\end_layout
+
+\begin_layout Subsubsection
+Puff-Plume Model 
+\end_layout
+
+\begin_layout Standard
+The puff-plume model maintains the advantages of the puff models and also
+ of the plume models.
+ The pollutants particles are grouped in clusters.
+ These clusters are treated as Gaussian puffs which are dispersed using
+ the concept of relative diffusion.
+ The center of mass of each puff follows a stochastic trajectory.
+ The particle trajectories of Lagrangian stochastic dispersion model gives
+ the trajectory of the puffs.
+\end_layout
+
+\begin_layout Subsubsection*
+Why Gaussian model?
+\end_layout
+
+\begin_layout Standard
+The Gaussian dispersion model has been selected as it has relatively less
+ computational time as compared to the Lagranian model in which the computationa
+l time increases significantly with increase in distance.
+ 
+\end_layout
+
+\begin_layout Section
+RESULTS
+\end_layout
+
+\begin_layout Standard
+The prediction module and air dispersion module was implemented in python
+ programing language using Spyder Integrated development environment.
+\end_layout
+
+\begin_layout Standard
+The prediction module was tested on the dummy data set generated then the
+ precision was measured by finding the deviation of the predicted value
+ from the actual value using mean square error.
+ In an attempt to optimize the models the parameters of the models were
+ tuned and the response (mean squared error) was graphed out.
+\end_layout
+
+\begin_layout Standard
+The air dispersion module was implemented to calculate the concentration
+ from a stationary steady state point source i.e.
+ stack and the results were mapped onto a grayscale bitmap image where the
+ pixel color represents the concentration.
+ 
+\end_layout
+
+\begin_layout Subsection
+Machine Learning module
+\end_layout
+
+\begin_layout Standard
+Different machine learning models were studied and implemented on the same
+ dataset and the results were compared.
+ The following table shows the range of error in the respective models while
+ the parameters were tuned
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sr no.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Name of ML model
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Parameters tuned
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+range of error
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Random Forest
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+maximum depth
+\end_layout
+
+\begin_layout Itemize
+maximum features
+\end_layout
+
+\begin_layout Itemize
+minimum sapmle split
+\end_layout
+
+\begin_layout Itemize
+minimum sample leaf
+\end_layout
+
+\begin_layout Itemize
+n estimators
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5-24
+\begin_inset Formula $\frac{m}{hr}^{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Multi-linear perceptron regression
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+activation function
+\end_layout
+
+\begin_layout Itemize
+number of neurons
+\end_layout
+
+\begin_layout Itemize
+solvers
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.2-2.7
+\begin_inset Formula $\frac{m}{hr}^{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Support vector regression
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+kernel
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10-10.8
+\begin_inset Formula $\frac{m}{hr}^{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+K-nearest neighbor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+weight 
+\end_layout
+
+\begin_layout Itemize
+algorithm
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3-14
+\begin_inset Formula $\frac{m}{hr}^{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Multi-linear Regression
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+none
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\begin_inset Formula $\frac{m}{hr}^{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The following graphs shows the mean squre error while the parameters are
+ being tuned for the respective models
+\end_layout
+
+\begin_layout Itemize
+Random forest The random forest model was tuned on its parameters that are
+ n_estimators, min_sample_leaf, max_depth, min_sample_split, max_features
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../readings/random forest/max_depth.png
+	width 6.5cm
+	height 6.5cm
+	keepAspectRatio
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+parameter tuned max depth
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../readings/random forest/max_features.png
+	width 6.5cm
+	height 6.5cm
+	keepAspectRatio
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+parameter tuned max features
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../readings/random forest/minsapmleaf.png
+	width 6.5cm
+	height 6.5cm
+	keepAspectRatio
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+parameter tuned min sample leaf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../readings/random forest/minsapmsplit.png
+	width 6.5cm
+	height 6.5cm
+	keepAspectRatio
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+parameter tuned min sample split
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../readings/random forest/n_estimators.png
+	width 6.5cm
+	height 6.5cm
+	keepAspectRatio
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+parameter tuned n estimators
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+• In random forest we can see that tuning the n estimators, max features
+ and max depth doesn’t vary the error by any significant value but tuning
+ min sample leaf and min sample split does impact the error.
+\end_layout
+
+\begin_layout Itemize
+Multi-linear perceptron regression 
+\end_layout
+
+\begin_layout Standard
+Here the model is tuned on activation function, number of neurons and type
+ of solvers 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../readings/mlp/actfunc.png
+	width 6.5cm
+	height 6.5cm
+	keepAspectRatio
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+parameter tuned activation function
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../readings/mlp/noofnue.png
+	width 6.5cm
+	height 6.5cm
+	keepAspectRatio
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+parameter tuned number of neurons
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../readings/mlp/solver.png
+	width 6.5cm
+	height 6.5cm
+	keepAspectRatio
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+parameter tuned solver
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In mlp the results shows that after tuning activation function, number of
+ neurons and type of solvers the error change is lies between 2.2 and 2.6
+ which is not much significant
+\end_layout
+
+\begin_layout Itemize
+Support vector regression
+\end_layout
+
+\begin_layout Standard
+This model is only tuned on its kernel property
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../readings/svm/kernel.png
+	width 6.5cm
+	height 6.5cm
+	keepAspectRatio
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+parameter tuned kernel
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The SVR model was tuned on its kernel property and the following results
+ show that the rbf kernel had the least error
+\end_layout
+
+\begin_layout Itemize
+K-nearest neighbor
+\end_layout
+
+\begin_layout Standard
+This was tuned on its weight and algorithm parameter, which are used for
+ clustering
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../readings/knn/knn_algo.png
+	width 6.5cm
+	height 6.5cm
+	keepAspectRatio
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+parameter tuned alogorithm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../readings/knn/knn_weights.png
+	width 6.5cm
+	height 6.5cm
+	keepAspectRatio
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+parameter tuned weights
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This KNN model was tuned on its algorithm and weight parameter used to cluster
+ data points the results shows that varying both these parameters does not
+ change the error by any significant amount
+\end_layout
+
+\begin_layout Itemize
+Multi-linear Regression
+\end_layout
+
+\begin_layout Standard
+This algorithm is an extension of linear regression with added support of
+ higher dimensions in feature space
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../readings/mlr/mlp_testdata.png
+	width 6.5cm
+	height 6.5cm
+	keepAspectRatio
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+predicted and actual data using samples form the test data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../readings/mlr/mlp_traindata.png
+	width 7cm
+	height 7cm
+	keepAspectRatio
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+predicted and actual data using samples form the train data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The above results shows that the predicted values closely follows the actual
+ values with an average error of about 10
+\begin_inset Formula $m^{3}/hr$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The results of the prediction module clearly shows that the multi-perceptron
+ regression model has the least mean square error out of all the models
+ also we can see that the error using test data loosely follows the error
+ using training data i.e.
+ the area between both plots over parameter tuning does not change much
+ which is a good indication that overfitting is not occurring.
+ Whereas multi-linear regression has the most error due to its simplistic
+ design
+\end_layout
+
+\begin_layout Subsection
+Air Dispersion module
+\end_layout
+
+\begin_layout Standard
+To calculate the concentration of the pollutant after emission from the
+ stack, Gaussian air dispersion model was used for simulation, this was
+ implemented using python programing language
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../readings/gaussian disp model/result.png
+	width 9cm
+	height 9cm
+	keepAspectRatio
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Gaussian air dispersion model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+the white region represents regions with high concentration and black with
+ low concentration
+\end_layout
+
+\begin_layout Section
+CONCLUSION
+\end_layout
+
+\begin_layout Standard
+The pollution detection and prediction system which consists of 3 main modules
+ of which 2 were successfully implemented that is 
+\end_layout
+
+\begin_layout Itemize
+Air dispersion module: in the module the Gaussian air dispersion model was
+ implemented using python in spyder IDE.
+ 
+\end_layout
+
+\begin_layout Itemize
+Prediction module: in this module 5 machine learning models were implemented
+ and compared which include (random forest, multi-linear perceptron, knn,
+ svr, multi-linear regression) form these the multi-linear perceptron model
+ was seen to have the least error.
+ 
+\end_layout
+
+\begin_layout Standard
+Therefore 2/3 of the system was designed and successfully built.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintAll"
+bibfiles "working"
+options "bibtotoc,ieeetr"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

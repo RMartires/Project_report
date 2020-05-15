@@ -1894,18 +1894,9 @@ HARDWARE AND SOFTWARE REQUIREMENTS
 
 \begin_layout Standard
 The entire system was built using the tools listed in Table 1.
- 
-\end_layout
-
-\begin_layout Itemize
-Machine learning module was built using python 3.3.6 and Scikit-learn 0.21
+ Machine learning module was built using python 3.3.6 and Scikit-learn 0.21
  also using Matplotlib 3.1.3 for graphing the results, the dummy data was
  also generated using python 3.3.6.
-\end_layout
-
-\begin_layout Itemize
-Air dispersion module was again built using the python 3.3.6 and Matplotlib
- 3.1.3 for visualising the dispertion in space.
 \end_layout
 
 \begin_layout Standard
@@ -1921,7 +1912,7 @@ status open
 
 
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="3">
+<lyxtabular version="3" rows="6" columns="3">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -2028,6 +2019,35 @@ Arduino IDE
 \begin_inset Text
 
 \begin_layout Plain Layout
+Sensiron
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0.6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 Scikit-learn
 \end_layout
 
@@ -2048,7 +2068,7 @@ Scikit-learn
 \begin_inset Text
 
 \begin_layout Plain Layout
-4
+5
 \end_layout
 
 \end_inset
@@ -2116,8 +2136,7 @@ This project was classified in the organic category which is defined as
 
 \begin_layout Standard
 Using this category we can use its related constraints (constants) that
- is a=2.4 and b=1.05 (these constants were chosen as the project is classified
- in the organic category) now using these values for the following formulas
+ is a=2.4 and b=1.05 now using these values for the following formulas
 \end_layout
 
 \begin_layout Standard
@@ -2326,8 +2345,8 @@ The prediction module was tested on the dummy data set generated then the
 \begin_layout Standard
 The air dispersion module was implemented to calculate the concentration
  from a stationary steady state point source i.e.
- stack and the results were plotted onto a grayscale bitmap image where
- the pixel color represents the concentration.
+ stack and the results were mapped onto a grayscale bitmap image where the
+ pixel color represents the concentration.
  
 \end_layout
 
@@ -2371,8 +2390,6 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
 Sr no.
 \end_layout
 
@@ -2382,8 +2399,6 @@ Sr no.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
 Name of ML model
 \end_layout
 
@@ -2393,8 +2408,6 @@ Name of ML model
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
 Parameters
 \end_layout
 
@@ -2404,8 +2417,6 @@ Parameters
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
 Min error 
 \begin_inset Formula $\frac{m}{hr}^{3}$
 \end_inset
@@ -2414,8 +2425,6 @@ Min error
 \end_layout
 
 \begin_layout Plain Layout
-
-\series bold
 \begin_inset VSpace smallskip
 \end_inset
 
@@ -2428,8 +2437,6 @@ Min error
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
 Max error 
 \begin_inset Formula $\frac{m}{hr}^{3}$
 \end_inset
@@ -2443,8 +2450,6 @@ Max error
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
 Avg.
  error 
 \begin_inset Formula $\frac{m}{hr}^{3}$
@@ -2470,8 +2475,6 @@ Avg.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
 Random Forest
 \end_layout
 
@@ -2544,8 +2547,6 @@ n estimators
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
 Multi-linear perceptron regression
 \end_layout
 
@@ -2610,8 +2611,6 @@ solvers
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
 Support vector regression
 \end_layout
 
@@ -2668,8 +2667,6 @@ kernel
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
 K-nearest neighbor
 \end_layout
 
@@ -2730,8 +2727,6 @@ algorithm
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
 Multi-linear Regression
 \end_layout
 
@@ -3594,8 +3589,8 @@ To calculate the concentration of the pollutant after emission from the
  stack, Gaussian air dispersion model was used for simulation, this was
  implemented using python programing language.
  The results were then represented using a thresholding functions to map
- different concentration levels with a color level, and this was saved as
- an image file.
+ different concentration levels with a color level, and this was outputted
+ as an image.
 \end_layout
 
 \begin_layout Standard
