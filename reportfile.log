@@ -1,0 +1,461 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.18)  15 MAY 2020 11:48
+entering extended mode
+**./reportfile.tex
+(reportfile.tex
+LaTeX2e <2019-10-01> patch level 3
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
+Document Class: article 2019/10/25 v1.4k Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\size12.clo"
+File: size12.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\fontenc.sty"
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\t1enc.def"
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\latin9.def"
+File: latin9.def 2018/08/11 v1.3c Input encoding file
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/geometry-de\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\ifpdf.sty"
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\ifxetex.sty"
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks17
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\array.sty"
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen111
+\ar@mcellbox=\box27
+\extrarowheight=\dimen112
+\NC@list=\toks18
+\extratabsurround=\skip43
+\backup@length=\skip44
+\ar@cellbox=\box28
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count91
+\float@exts=\toks19
+\float@box=\box29
+\@float@everytoks=\toks20
+\@floatcapt=\box30
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip45
+\f@nch@O@elh=\skip46
+\f@nch@O@erh=\skip47
+\f@nch@O@olh=\skip48
+\f@nch@O@orh=\skip49
+\f@nch@O@elf=\skip50
+\f@nch@O@erf=\skip51
+\f@nch@O@olf=\skip52
+\f@nch@O@orf=\skip53
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty"
+Package: babel 2019/11/14 3.36 The Babel package
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\switch.def"
+File: switch.def 2019/11/14 3.36 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/babel-english\english.ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2019/11/14 3.36 Babel common definitions
+\babel@savecnt=\count92
+\U@D=\dimen115
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
+\bbl@dirlevel=\count93
+)
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language72) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language72) on input line 108.
+))
+(reportfile.aux)
+\openout1 = `reportfile.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+Package geometry Warning: The marginal notes overrun the paper.
+     Add 11.32088pt and more to the right margin.
+
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(42.67912pt, 528.93675pt, 42.67912pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=528.93675pt
+* \textheight=556.47656pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-13.87262pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count94
+\scratchdimen=\dimen116
+\scratchbox=\box31
+\nofMPsegments=\count95
+\nofMParguments=\count96
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count97
+\MPscratchDim=\dimen117
+\MPnumerator=\count98
+\makeMPintoPDFobject=\count99
+\everyMPtoPDFconversion=\toks22
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2019/11/24 v2.7 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\ifluatex.sty"
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+))))
+("C:\Program Files\MiKTeX 2.9\tex/latex/pdftexcmds\pdftexcmds.sty"
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+42.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 460.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 26.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 26.
+
+
+LaTeX Warning: No \author given.
+
+[1
+
+{C:/Users/R0#!T/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+[3] (reportfile.lof
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+)
+\tf@lof=\write3
+\openout3 = `reportfile.lof'.
+
+ (reportfile.lot)
+\tf@lot=\write4
+\openout4 = `reportfile.lot'.
+
+ (reportfile.toc [4])
+\tf@toc=\write5
+\openout5 = `reportfile.toc'.
+
+ [5]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 14.49998pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[6] [7] [8] [9] [10]
+<imgs/PROJECT METHODOLOGY_16_4_20.png, id=44, 663.22781pt x 411.03563pt>
+File: imgs/PROJECT METHODOLOGY_16_4_20.png Graphic file (type png)
+<use imgs/PROJECT METHODOLOGY_16_4_20.png>
+Package pdftex.def Info: imgs/PROJECT METHODOLOGY_16_4_20.png  used on input li
+ne 547.
+(pdftex.def)             Requested size: 284.5246pt x 176.3342pt.
+ [11]
+<imgs/iot_pf_4_16_20.jpg, id=48, 854.19125pt x 303.1325pt>
+File: imgs/iot_pf_4_16_20.jpg Graphic file (type jpg)
+<use imgs/iot_pf_4_16_20.jpg>
+Package pdftex.def Info: imgs/iot_pf_4_16_20.jpg  used on input line 552.
+(pdftex.def)             Requested size: 426.78177pt x 227.62634pt.
+ [12 <./imgs/PROJECT METHODOLOGY_16_4_20.png> <./imgs/iot_pf_4_16_20.jpg>]
+<imgs/iot_ckt_diag_16_4_20.png, id=52, 488.82625pt x 272.01625pt>
+File: imgs/iot_ckt_diag_16_4_20.png Graphic file (type png)
+<use imgs/iot_ckt_diag_16_4_20.png>
+Package pdftex.def Info: imgs/iot_ckt_diag_16_4_20.png  used on input line 601.
+
+(pdftex.def)             Requested size: 284.53381pt x 158.33401pt.
+ [13]
+<imgs/ML process flow (1).jpg, id=58, 654.445pt x 252.945pt>
+File: imgs/ML process flow (1).jpg Graphic file (type jpg)
+<use imgs/ML process flow (1).jpg>
+Package pdftex.def Info: imgs/ML process flow (1).jpg  used on input line 607.
+(pdftex.def)             Requested size: 426.79224pt x 227.62523pt.
+ [14 <./imgs/iot_ckt_diag_16_4_20.png> <./imgs/ML process flow (1).jpg>] [15] [
+16] [17] [18] [19] [20]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 9
+06.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 906.
+<readings/rf/max_depth.png, id=84, 391.4625pt x 282.05376pt>
+File: readings/rf/max_depth.png Graphic file (type png)
+<use readings/rf/max_depth.png>
+Package pdftex.def Info: readings/rf/max_depth.png  used on input line 919.
+(pdftex.def)             Requested size: 184.9431pt x 184.94667pt.
+<readings/rf/max_features.png, id=85, 389.455pt x 282.05376pt>
+File: readings/rf/max_features.png Graphic file (type png)
+<use readings/rf/max_features.png>
+Package pdftex.def Info: readings/rf/max_features.png  used on input line 924.
+(pdftex.def)             Requested size: 184.93956pt x 184.94667pt.
+<readings/rf/minsapmleaf.png, id=86, 397.485pt x 283.0575pt>
+File: readings/rf/minsapmleaf.png Graphic file (type png)
+<use readings/rf/minsapmleaf.png>
+Package pdftex.def Info: readings/rf/minsapmleaf.png  used on input line 933.
+(pdftex.def)             Requested size: 184.9499pt x 184.94833pt.
+<readings/rf/minsapmsplit.png, id=87, 388.45125pt x 283.0575pt>
+File: readings/rf/minsapmsplit.png Graphic file (type png)
+<use readings/rf/minsapmsplit.png>
+Package pdftex.def Info: readings/rf/minsapmsplit.png  used on input line 938.
+(pdftex.def)             Requested size: 184.94894pt x 184.94833pt.
+ [21 <./readings/rf/max_depth.png> <./readings/rf/max_features.png>]
+<readings/rf/n_estimators.png, id=93, 401.5pt x 282.05376pt>
+File: readings/rf/n_estimators.png Graphic file (type png)
+<use readings/rf/n_estimators.png>
+Package pdftex.def Info: readings/rf/n_estimators.png  used on input line 945.
+(pdftex.def)             Requested size: 184.94954pt x 184.94667pt.
+ [22 <./readings/rf/minsapmleaf.png> <./readings/rf/minsapmsplit.png> <./readin
+gs/rf/n_estimators.png>]
+<readings/mlp/actfunc.png, id=100, 393.47pt x 282.05376pt>
+File: readings/mlp/actfunc.png Graphic file (type png)
+<use readings/mlp/actfunc.png>
+Package pdftex.def Info: readings/mlp/actfunc.png  used on input line 967.
+(pdftex.def)             Requested size: 184.94292pt x 132.57388pt.
+<readings/mlp/noofnue.png, id=101, 394.47375pt x 282.05376pt>
+File: readings/mlp/noofnue.png Graphic file (type png)
+<use readings/mlp/noofnue.png>
+Package pdftex.def Info: readings/mlp/noofnue.png  used on input line 972.
+(pdftex.def)             Requested size: 184.93921pt x 132.23389pt.
+<readings/mlp/solver.png, id=102, 393.47pt x 282.05376pt>
+File: readings/mlp/solver.png Graphic file (type png)
+<use readings/mlp/solver.png>
+Package pdftex.def Info: readings/mlp/solver.png  used on input line 978.
+(pdftex.def)             Requested size: 184.94292pt x 132.57388pt.
+<readings/svm/kernel.png, id=103, 399.4925pt x 282.05376pt>
+File: readings/svm/kernel.png Graphic file (type png)
+<use readings/svm/kernel.png>
+Package pdftex.def Info: readings/svm/kernel.png  used on input line 992.
+(pdftex.def)             Requested size: 184.94525pt x 130.57692pt.
+ [23 <./readings/mlp/actfunc.png> <./readings/mlp/noofnue.png> <./readings/mlp/
+solver.png>]
+<readings/knn/knn_algo.png, id=110, 389.455pt x 283.0575pt>
+File: readings/knn/knn_algo.png Graphic file (type png)
+<use readings/knn/knn_algo.png>
+Package pdftex.def Info: readings/knn/knn_algo.png  used on input line 1009.
+(pdftex.def)             Requested size: 184.93956pt x 134.41483pt.
+<readings/knn/knn_weights.png, id=111, 389.455pt x 282.05376pt>
+File: readings/knn/knn_weights.png Graphic file (type png)
+<use readings/knn/knn_weights.png>
+Package pdftex.def Info: readings/knn/knn_weights.png  used on input line 1017.
+
+(pdftex.def)             Requested size: 184.93956pt x 133.93819pt.
+ [24 <./readings/svm/kernel.png> <./readings/knn/knn_algo.png> <./readings/knn/
+knn_weights.png>]
+<readings/mlr/mlp_testdata.png, id=118, 394.47375pt x 282.05376pt>
+File: readings/mlr/mlp_testdata.png Graphic file (type png)
+<use readings/mlr/mlp_testdata.png>
+Package pdftex.def Info: readings/mlr/mlp_testdata.png  used on input line 1036
+.
+(pdftex.def)             Requested size: 184.93921pt x 132.23389pt.
+<readings/mlr/mlp_traindata.png, id=119, 394.47375pt x 282.05376pt>
+File: readings/mlr/mlp_traindata.png Graphic file (type png)
+<use readings/mlr/mlp_traindata.png>
+Package pdftex.def Info: readings/mlr/mlp_traindata.png  used on input line 104
+1.
+(pdftex.def)             Requested size: 199.16853pt x 142.40804pt.
+<readings/gdm/result.png, id=120, 398.48875pt x 167.62625pt>
+File: readings/gdm/result.png Graphic file (type png)
+<use readings/gdm/result.png>
+Package pdftex.def Info: readings/gdm/result.png  used on input line 1070.
+(pdftex.def)             Requested size: 256.08385pt x 107.72292pt.
+ [25 <./readings/mlr/mlp_testdata.png> <./readings/mlr/mlp_traindata.png>] [26 
+<./readings/gdm/result.png>] (reportfile.bbl [27])
+Underfull \hbox (badness 10000) in paragraph at lines 1110--1113
+[]\T1/cmr/m/n/12 [20] Un-der-stand-ing Ran-dom For-est - To-wards Data Sci-enc
+e. [On-line]. Avail-able:
+ []
+
+
+Underfull \hbox (badness 3815) in paragraph at lines 1110--1113
+\T1/cmr/m/n/12 https://towardsdatascience.com/understanding-random-forest-58381
+e0602d2. [Ac-cessed: 13-Jan-
+ []
+
+
+Underfull \hbox (badness 2735) in paragraph at lines 1122--1125
+[]\T1/cmr/m/n/12 [22] Neu-ral Net-works Ex-plained - Data Driven In-vestor - M
+edium. [On-line]. Avail-able:
+ []
+
+[28] (reportfile.aux) ) 
+Here is how much of TeX's memory you used:
+ 3280 strings out of 492484
+ 46867 string characters out of 3131050
+ 127851 words of memory out of 3000000
+ 7531 multiletter control sequences out of 15000+200000
+ 14925 words of font info for 36 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 51i,11n,45p,302b,335s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\R0#!T\AppData\Local\MiKTeX\2.9\fonts/pk/ljfou
+r/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\R0#!T\AppData\Local\MiKTeX\2.9\font
+s/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\R0#!T\AppData\Local\MiKTe
+X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\R0#!T\AppData\L
+ocal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\R0#!T
+\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\U
+sers\R0#!T\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200
+.pk> <C:\Users\R0#!T\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecbx1200.pk> <C:\Users\R0#!T\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappe
+n/ec/dpi600\ecrm2074.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
+i8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on reportfile.pdf (28 pages, 509320 bytes).
+PDF statistics:
+ 524 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+

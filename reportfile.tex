@@ -8,6 +8,7 @@
 \usepackage{array}
 \usepackage{float}
 \usepackage{graphicx}
+\usepackage{fancyhdr}
 
 \makeatletter
 
@@ -139,9 +140,9 @@ to work on this project.
 
 We would like to express our gratitude to Dr. Varsha Turkar, Head
 of Department of Electronics And Telecommunication Engineering and
-Dr. Shreyas Simu project guides for their guidance and constant supervision
-as well as for providing necessary information regarding the project
-\& also for their support in completing the project.
+Dr. Shreyas Simu our project guides for their guidance and constant
+supervision as well as for providing necessary information regarding
+the project \& also for their support in completing the project.
 
 We would like to thank Mr. Vassant Salgaonkar, our external guide
 for his expert domain knowledge, kind co-operation, encouragement
@@ -158,14 +159,6 @@ Lastly, we place on records, a huge amount of thanks to Almighty,
 our family and friends for their blessings, inspiration and constant
 support and those who have helped us directly and indirectly for the
 accomplishment of the project.
-
-\newpage{}
-
-\tableofcontents{}
-
-\listoffigures
-
-\listoftables
 
 \newpage{}
 \begin{abstract}
@@ -198,6 +191,19 @@ bit mapped image where the pixel colour represents the concentration.
 
 \newpage{}
 \end{abstract}
+\listoffigures
+
+\listoftables
+\tableofcontents{}
+
+\newpage{}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Pollution Detection and Prediction System}
+\rhead{Page \thepage}
+\cfoot{Dept. of Electronics and Telecommunication Engineering, Don Bosco College of Engineering, Fatorda}
+
 
 \section{INTRODUCTION}
 
@@ -231,7 +237,7 @@ The six major types of air pollutants are Carbon Monoxide (CO), Nitrogen
 Oxides ($NO_{x}$), Sulphur Oxides ($SO_{x}$), particulates, hydrocarbons
 and photochemical oxidants. 
 
-\subsection{Project scope}
+\subsection{Project Scope}
 
 The Paris agreement\textquoteright s central aim is to strengthen
 the global response to the threat of climate change by keeping a global
@@ -260,29 +266,11 @@ i.e. a system that effectively punishes individuls, and to introduce
 contraventions\textquotedblright{} i.e. a sum of money imposed for
 noncompliance. There are no effective strict rules for pollution monitoring
 and control in industries yet. But the government of India is making
-industrial pollution control and monitoring laws more strict.
+industrial pollution control and monitoring laws more strict. This
+action will create a demand for products and services that would aid
+in the process that the government underlines for companies to perform.
 
-\subsection{Objectives of the project}
-
-The main objective of the project is to monitor the pollutants emitted
-from an industry/factory and predict the future dispersion of these
-pollutants also to then output these results in the form of reports
-for industries/factories. To accomplish this project, three objectives
-were identified that are
-\begin{enumerate}
-\item To create a series of gadgets which can measure the emission parameters
-and the meteorological parameters and also that can withstand the
-environmental conditions present near the stack/chimney and transmit
-this information to a server that is Internet Of Things (IOT).
-\item To develop a module that uses Machine Learning (ML) models with data
-acquired from the cloud server to predict future emission parameter
-values. 
-\item To create a module that simulates the movement of fluid particles
-(pollutant) in the air using air dispersion models with meteorological
-data.
-\end{enumerate}
-
-\section{LITERATURE SURVEY}
+\subsection{Litrature Survey}
 
 In \cite{kaplan1996lagrangian} the authors proposed a diagnostic
 model for calculating concentration distribution of a passive scalar
@@ -454,7 +442,7 @@ algorithm and least square method based on an established variable
 and real-time predict contaminant concentration, and identify source
 emission rate accurately and efficiently.
 
-\section{GAP ANALYSIS}
+\subsection{Gap Analysis}
 
 The previous work in this field included setting up monitoring stations
 to measure the amount of pollutants in the atmosphere. This was done
@@ -483,61 +471,146 @@ factors to a large extent as compared to the previous models. This
 will allow us to take more accurate readings and hence make more accurate
 predictions of future emission rates.
 
+\subsection{Objectives Of The Project}
+
+The main objective of the project is to monitor the pollutants emitted
+from an industry/factory and predict the future dispersion of these
+pollutants also to then output these results in the form of reports
+for industries/factories. To accomplish this project, three objectives
+were identified that are
+\begin{enumerate}
+\item To create a series of gadgets which can measure the emission parameters
+and the meteorological parameters and also that can withstand the
+environmental conditions present near the stack/chimney and transmit
+this information to a server that is Internet Of Things (IOT).
+\item To develop a module that uses Machine Learning (ML) models with data
+acquired from the cloud server to predict future emission parameter
+values. 
+\item To create a module that simulates the movement of fluid particles
+(pollutant) in the air using air dispersion models with meteorological
+data.
+\end{enumerate}
+
+\section{DATASET AND STUDY AREA}
+
+The objective of the prediction module is to predict the emission
+rate at the stack/chimney. To build and test the prediction model,
+1000 dummy data points were generated using Gaussian distribution
+to randomly generate values for the feature set with guidance from
+an industry expert, this data was later split into training and testing
+that is 80\% and 20\% respectively. The feature set is chosen on the
+basis of what factors will correlate to the emission rate and the
+type of pollutants emitted from the stack. The feature set consists
+of independent variables: day, month, type of industry, size of the
+industry, and output efficiency of industry and dependent variable:
+emission rate.
+\begin{enumerate}
+\item Type of industry: what the industry/factory produces which will correlate
+to what gases are emitted out of the stack/chimney, this will be in
+the form of labeled classes. 
+\item Size of the industry: how big is the industry/factory which will correlate
+how much the maximum is outputted, this will be represented in the
+form of a scale from 1 to 10.
+\item Output efficiency: the amount of output it produces each day divided
+by the total amount of output it can ideally produce. 
+\item Emission rate: this is defined as the amount of pollutants released
+from the stack per unit time.
+\end{enumerate}
+The prediction module is also used on the collected meteorological
+data to predict the air velocity and direction, this is then applied
+to calculate the dispersion of pollutants in the air.
+
+The feature set of this prediction model consists of independent variables:
+day, month, ambient temperature, ambient pressure, moisture content
+and dependent variables: the air velocity and air direction.
+
+Day and month are used to timestamp data points also temperature,
+pressure and moisture content of the ambient air is correlated to
+the velocity and direction of air.
+
 \section{METHODOLOGY}
 
-In Figure 1, methodology block diagram, the overall setup consists
-of network of sensors that will be mounted in a specific industry,
-the data collected from these sensors will be stored on the server.
-These sensors measure the air parameters in terms of ambient air as
-well as stack emission. On this data, we apply various machine learning
-algorithms for prediction of emission rate. The air dispersion models
-are then applied on the predicted emission rate to calculate the dispersion
-of pollutants from the source that is at the stack level. The entire
-system can be divided into two broad categories: IOT and ML
+In Figure 1 : methodology flow diagram, the overall setup consists
+of network of sensors that will be mounted in a specific industry
+at various places , the data collected from these sensors will be
+stored on the server. These sensors measure the air parameters in
+terms of ambient air as well as concentration.From the concentration
+of the pollutants the emission rate at the stack is calculated using
+inverse dispersion model . On this data, we apply various machine
+learning algorithms for prediction of emission rate for the future.
+The air dispersion models are then applied on the predicted emission
+rate to calculate the dispersion of pollutants from the source that
+is at the stack level. The entire system is basically divided into
+two broad categories: IOT and ML
 
 \begin{figure}[H]
-\centering{}\includegraphics[width=10cm,height=10cm]{imgs/mainmeth}\caption{Methodology block diagram}
+\centering{}\includegraphics[width=10cm,height=8cm,keepaspectratio]{\string"imgs/PROJECT METHODOLOGY_16_4_20\string".png}\caption{Methodology block diagram}
 \end{figure}
 
 \begin{figure}[H]
 \begin{centering}
-\includegraphics[width=13cm,height=13cm]{\string"imgs/iot process flow (1)\string".eps}
+\includegraphics[width=15cm,height=8cm]{imgs/iot_pf_4_16_20}
 \par\end{centering}
 \caption{IOT process flow}
 \end{figure}
 
-\begin{itemize}
+\begin{enumerate}
 \item \textbf{Internet Of Things:} in Figure 2, the IOT process flow begins
 with air meteorological parameters, which are to be measured using
 various sensors. On the basis of guidelines laid by central pollution
 control board (CPCB), it is divided mainly into ambient air parameters
 and stack emission parameters. 
-\begin{itemize}
-\item Ambient air parameters, refers to concentrations of pollutants in
-the air, typically outdoor air. The criteria for this is based upon
-protection of human health, crops, ecosystems as well as for planning
-and other useful purposes. 
-\item Stack emission parameters, parameters required to be monitored in
-the stack emissions using continuous emission monitoring systems,
-are industry specific. 
-\item Consideration of parameters to predict emission rate (Q) and Velocity
-of wind (V), we considered all the air meteorological parameters inorder
-to predict the value of V and Q. 
+\begin{enumerate}
+\item Ambient air parameters are factors that are used to predict wind velocity
+V and direction. the predicted values are used to define turbulance
+and dispersion in the air dispersion module. 
+\item Pollutant concentration parameters are factors used to calculate the
+stack emission rate Q via the inverse air dispersion module. 
+\item Consideration of parameters to predict Q (emission rate) for future
+point in time using the Machine Learning module.
 \item Data collection using sensors, with the help of various sensors employed
-in a specific industry, huge amount of data was collected. 
-\item Building up of cloud architecture, the data collected from the sensors
-is uploaded and stored on the cloud setup. The sensor network is connected
-to the cloud server. 
-\end{itemize}
-\end{itemize}
+in a specific industry.
+\item Inverse Air dispersion Module is used to calculate the emission rate
+using the pollutant concentration parameters.
+\item Data storage is done via a cloud solution that stores the dependent
+and independent variables which will be later used in the Machine
+Learning module.
+\end{enumerate}
+\item Figure 3 shows the IOT circuit block diagram that include
+\begin{enumerate}
+\item NodeMCU (ESP8266 NodeMCU CP2102 board) : Is an open-source development
+board based on ESP8266. We have used this board to read data from
+the sensors. 
+\item Temperature Sensor(TMP461AIRUNR-S) : is used to measure the ambient
+temperature of the industry.
+\item Pressure Sensor (BMP388) : is used to measure the air pressure at
+a given location in the industry. 
+\item Wind velocity Sensor (D6F-V03A1) : used to measure the velocity of
+the wind at a given location.
+\item Particulate matter (PM) sensor (SPS30) : A sensor to detect the concentration
+particulate matter (PM 2.5 and PM 10) in air.
+\item Inverse Dispersion Model: The sensor data is applied to an inverse
+dispersion model. The results of the inverse dispersion model are
+then stored on the Cloud.
+\item Cloud: Stores data that will be used later to train the machine learning
+algorithms.
+\end{enumerate}
+\end{enumerate}
 \begin{figure}[H]
-\centering{}\includegraphics[width=13cm,height=13cm]{\string"imgs/ML process flow (1)\string".eps}\caption{Machine Leaning process flow}
+\begin{centering}
+\includegraphics[width=10cm,height=10cm,keepaspectratio]{imgs/iot_ckt_diag_16_4_20}
+\par\end{centering}
+\centering{}\caption{IOT circuit block diagram}
 \end{figure}
 
-\begin{itemize}
-\item \textbf{Machine Learning}: in Firgure 3, the machine learning process
+\begin{figure}[H]
+\centering{}\includegraphics[width=15cm,height=8cm]{\string"imgs/ML process flow (1)\string".jpg}\caption{Machine Leaning process flow}
+\end{figure}
+
+\begin{enumerate}
+\item \textbf{Machine Learning}: in Firgure 4, the machine learning process
 flow begins with 
-\begin{itemize}
+\begin{enumerate}
 \item Dummy data is generated using python. The dummy data was not truly
 random, it was correlated with various meteorological air parameters
 so that the machine could be trained well. It was observed that by
@@ -563,8 +636,8 @@ extent of pollution spread since it was the most optimal model in
 terms of computing power. 
 \item Prediction of air pollution, in this manner the entire process of
 prediction of pollution and calculation of its spread is done.
-\end{itemize}
-\end{itemize}
+\end{enumerate}
+\end{enumerate}
 
 \subsection{Machine Learning Algorithms }
 
@@ -583,7 +656,7 @@ several classes to predict the classification of a new sample point.
 It is extended as a regression technique wherein the output of the
 point is the average or median value of its nearest neighbors. In
 KNN the training data required is very less, which means there is
-a lack of generalization {[}17{]}. 
+a lack of generalization {[}18{]}. 
 \item \textbf{Support Vector Regression (SVR)-} SVR is a supervised machine
 learning algorithm that is being used for both classification and
 regression problems. In this algorithm, a data point is plotted in
@@ -591,7 +664,7 @@ n-dimensional space after which it is classified by finding the plane
 that will differentiate the classes very well. The hyperplane which
 is considered is a linear separator of any dimension (line, plane,
 hyperplane). The training points are used in decision function and
-are called support vectors {[}18{]}.
+are called support vectors {[}19{]}.
 \item \textbf{Random Forest (RFS)-} The decision tree is a decision support
 tool. It uses a graph in the form of a tree to show possible consequences.
 Random forest operates by constructing multiple decision trees during
@@ -602,13 +675,13 @@ these rules are used to perform predictions. It identifies the most
 important features out of all the available features in the training
 dataset. The larger the no. of trees the more accurate the results
 will be. Random forest classifier handles missing values and overfitting
-problem doesn\textquoteright t exist {[}19{]}.
+problem doesn\textquoteright t exist {[}20{]}.
 \item \textbf{Multilinear Regression (MLR)-} This technique uses several
 explanatory variables to predict the outcome of the response variable.
 A linear relationship is modeled between these independent and response
 variable (dependent). Prediction about one variable is done based
 on the information about the other variable. In this case, the independent
-variables should not be too highly correlated with each other {[}20{]}.
+variables should not be too highly correlated with each other {[}21{]}.
 \item \textbf{Neural Network (MLP)-} it is a model that mimics the way the
 human brain operates. A neuron in a neural network is a mathematical
 function that collects and classifies information according to some
@@ -616,7 +689,7 @@ specific architecture. A neural network contains layers of interconnected
 nodes. Each connection is associated with a weight that is multiplied
 with the input value. Each neuron has an activation function that
 defines the output of the neuron which is used to introduce non-linearity
-in the network model {[}21{]}.
+in the network model {[}22{]}.
 \end{enumerate}
 These Machine learning algorithms were implemented using python and
 the mean square error of each of these was measured to check for accuracy.
@@ -667,49 +740,95 @@ follows a stochastic trajectory. The particle trajectories of the
 Lagrangian stochastic dispersion model gives the trajectory of the
 puffs.
 
-\subsubsection{Why Gaussian model?}
+\subsubsection{Why Gaussian Model?}
 
-The Gaussian dispersion model has been selected as it has relatively
-less computational time as compared to the Lagrangian model in which
-the computational time increases significantly with an increase in
-distance. 
+The Gaussian dispersion model has been selected as it being a more
+simplistic and intuitive model. 
 
-\subsection{Dataset and study area}
+\subsubsection{Inverse Dispersion Module}
 
-The objective of the prediction module is to predict the emission
-rate at the stack/chimney. To build and test the prediction model,
-1000 dummy data points were generated using Gaussian distribution
-to randomly generate values for the feature set with guidance from
-an industry expert, this data was later split into training and testing
-that is 80\% and 20\% respectively. The feature set is chosen on the
-basis of what factors will correlate to the emission rate and the
-type of pollutants emitted from the stack. The feature set consists
-of independent variables: day, month, type of industry, size of the
-industry, and output efficiency of industry and dependent variable:
-emission rate.
-\begin{itemize}
-\item Type of industry: what the industry/factory produces which will correlate
-to what gases are emitted out of the stack/chimney, this will be in
-the form of labeled classes. 
-\item Size of the industry: how big is the industry/factory which will correlate
-how much the maximum is outputted, this will be represented in the
-form of a scale from 1 to 10.
-\item Output efficiency: the amount of output it produces each day divided
-by the total amount of output it can ideally produce. 
-\item Emission rate: this is defined as the amount of pollutants released
-from the stack per unit time.
-\end{itemize}
-The prediction module is also used on the collected meteorological
-data to predict the air velocity and direction, this is then applied
-to calculate the dispersion of pollutants in the air.
+This module is a subset of the air dispersion module, as the name
+suggests it uses the same technique as the conventional air dispersion
+module but in reverse. This is used to calculate the emission rate
+from a stack using the air concentration, postion and wind velocity
+data as inputs \cite{kura2019feasibility}. 
 
-The feature set of this prediction model consists of independent variables:
-day, month, ambient temperature, ambient pressure, moisture content
-and dependent variables: the air velocity and air direction.
+\section{HARDWARE AND SOFTWARE REQUIREMENTS}
 
-Day and month are used to timestamp data points also temperature,
-pressure and moisture content of the ambient air is correlated to
-the velocity and direction of air.
+The entire system was built using the tools listed in Table 1. 
+\begin{enumerate}
+\item Machine learning module was built using python 3.3.6 and Scikit-learn
+0.21 also using Matplotlib 3.1.3 for graphing the results, the dummy
+data was also generated using python 3.3.6.
+\item Air dispersion module was again built using the python 3.3.6 and Matplotlib
+3.1.3 for visualising the dispertion in space.
+\end{enumerate}
+\begin{table}[H]
+\begin{centering}
+\,%
+\begin{tabular}{|c|c|c|}
+\hline 
+Sr. No. & Software & Version\tabularnewline
+\hline 
+\hline 
+1 & Python & 3.3.6\tabularnewline
+\hline 
+2 & Arduino IDE & 1.8\tabularnewline
+\hline 
+3 & Scikit-learn & 0.21\tabularnewline
+\hline 
+4 & Matplotlib & 3.1.3\tabularnewline
+\hline 
+\end{tabular}
+\par\end{centering}
+\centering{}\caption{Hardware and Software Requirements}
+\end{table}
+
+
+\section{COST ANALYSIS}
+
+Cost analysis of the project was done using the COCOMO cost analysis
+model, the specific version utilized here is the Basic Model. This
+version is good for quick, early, rough order of magnitude estimates
+of software costs.
+
+This project was classified in the organic category which is defined
+as relatively small, simple software projects in which small teams
+with good application experience work to a set of less than rigid
+requirements.
+
+Using this category we can use its related constraints (constants)
+that is a=2.4 and b=1.05 (these constants were chosen as the project
+is classified in the organic category) now using these values for
+the following formulas
+
+$Effort=a*Loc^{b}$
+
+$Duration=c*effort^{d}$
+
+$Staffing=effort/duration$
+
+using these formulas where LOC is the estimated lines of code which
+is equal to 1.5KLOC will give us the following results:
+
+\begin{table}[H]
+
+\begin{centering}
+\begin{tabular}{|c|c|c|}
+\hline 
+Sr. No. & Metric & Result\tabularnewline
+\hline 
+\hline 
+1 & Effort & 2.4\tabularnewline
+\hline 
+2 & Duration & 3.4\tabularnewline
+\hline 
+3 & Staffing & 0.6\tabularnewline
+\hline 
+\end{tabular}\caption{Cost Analysis}
+\par\end{centering}
+\end{table}
+
 
 \section{RESULTS}
 
@@ -724,10 +843,10 @@ the response (mean squared error) was graphed out.
 
 The air dispersion module was implemented to calculate the concentration
 from a stationary steady state point source i.e. stack and the results
-were mapped onto a grayscale bitmap image where the pixel color represents
+were plotted onto a grayscale bitmap image where the pixel color represents
 the concentration. 
 
-\subsection{Machine Learning module}
+\subsection{Machine Learning Module}
 
 Different Machine Learning algorithms were studied and implemented
 on the same dataset and the results were compared. Table 1: shows
@@ -740,13 +859,13 @@ tuned
 \begin{centering}
 \begin{tabular}{|c|>{\centering}p{4cm}|>{\raggedright}p{3cm}|>{\centering}p{1.5cm}|>{\centering}p{1cm}|>{\centering}p{1cm}|}
 \hline 
-Sr no. & Name of ML model & Parameters & Min error $\frac{m}{hr}^{3}$
+\textbf{Sr no.} & \textbf{Name of ML model} & \textbf{Parameters} & \textbf{Min error $\frac{m}{hr}^{3}$}
 
-\smallskip{}
- & Max error $\frac{m}{hr}^{3}$ & Avg. error $\frac{m}{hr}^{3}$\tabularnewline
+\textbf{\smallskip{}
+} & \textbf{Max error $\frac{m}{hr}^{3}$} & \textbf{Avg. error $\frac{m}{hr}^{3}$}\tabularnewline
 \hline 
 \hline 
-1 & Random Forest & maximum depth
+1 & \textbf{Random Forest} & maximum depth
 
 maximum features
 
@@ -756,19 +875,19 @@ minimum sample leaf
 
 n estimators & 5 & 24 & 14.5\tabularnewline
 \hline 
-2 & Multi-linear perceptron regression & activation function
+2 & \textbf{Multi-linear perceptron regression} & activation function
 
 number of neurons
 
 solvers & 2.2 & 2.7 & 2.45\tabularnewline
 \hline 
-3 & Support vector regression & kernel & 10 & 10.8 & 10.4\tabularnewline
+3 & \textbf{Support vector regression} & kernel & 10 & 10.8 & 10.4\tabularnewline
 \hline 
-4 & K-nearest neighbor & weight
+4 & \textbf{K-nearest neighbor} & weight
 
 algorithm & 3 & 14 & 8.5\tabularnewline
 \hline 
-5 & Multi-linear Regression & None & 10 & 10 & 10\tabularnewline
+5 & \textbf{Multi-linear Regression} & None & 10 & 10 & 10\tabularnewline
 \hline 
 \end{tabular}
 \par\end{centering}
@@ -780,7 +899,7 @@ algorithm & 3 & 14 & 8.5\tabularnewline
 The following graphs shows the mean square error while the parameters
 are being tuned for the respective models
 
-\subsubsection{Random forest (RF):}
+\subsubsection{Random Forest (RF):}
 
 The random forest model was tuned on its parameters that are 
 \begin{itemize}
@@ -797,12 +916,12 @@ the best split.
 \centering{}%
 \begin{minipage}[t]{0.45\columnwidth}%
 \begin{center}
-\includegraphics[width=6.5cm,height=6.5cm,keepaspectratio]{\string"readings/random forest/max_depth\string".eps}\caption{Parameter tuned max depth}
+\includegraphics[width=6.5cm,height=6.5cm]{readings/rf/max_depth}\caption{Parameter tuned max depth}
 \par\end{center}%
 \end{minipage}\hfill{}%
 \begin{minipage}[t]{0.45\columnwidth}%
 \begin{center}
-\includegraphics[width=6.5cm,height=6.5cm,keepaspectratio]{\string"readings/random forest/max_features\string".eps}\caption{Parameter tuned max features}
+\includegraphics[width=6.5cm,height=6.5cm]{readings/rf/max_features}\caption{Parameter tuned max features}
 \par\end{center}%
 \end{minipage}
 \end{figure}
@@ -811,19 +930,19 @@ the best split.
 \centering{}%
 \begin{minipage}[t]{0.45\columnwidth}%
 \begin{center}
-\includegraphics[width=6.5cm,height=6.5cm,keepaspectratio]{\string"readings/random forest/minsapmleaf\string".eps}\caption{Parameter tuned min sample leaf}
+\includegraphics[width=6.5cm,height=6.5cm]{readings/rf/minsapmleaf}\caption{Parameter tuned min sample leaf}
 \par\end{center}%
 \end{minipage}\hfill{}%
 \begin{minipage}[t]{0.45\columnwidth}%
 \begin{center}
-\includegraphics[width=6.5cm,height=6.5cm,keepaspectratio]{\string"readings/random forest/minsapmsplit\string".eps}\caption{Parameter tuned min sample split}
+\includegraphics[width=6.5cm,height=6.5cm]{readings/rf/minsapmsplit}\caption{Parameter tuned min sample split}
 \par\end{center}%
 \end{minipage}
 \end{figure}
 
 \begin{figure}[H]
 \begin{centering}
-\includegraphics[width=6.5cm,height=6.5cm,keepaspectratio]{\string"readings/random forest/n_estimators\string".eps}
+\includegraphics[width=6.5cm,height=6.5cm]{readings/rf/n_estimators}
 \par\end{centering}
 \caption{Parameter tuned n estimators}
 \end{figure}
@@ -833,7 +952,7 @@ features' and 'max depth' doesn\textquoteright t vary the error by
 any significant value but tuning 'min sample leaf' and 'min sample
 split' does impact the error.
 
-\subsubsection{Multi-linear perceptron (MLP) regression: }
+\subsubsection{Multi-Linear Perceptron (MLP) regression: }
 
 Here the model is tuned on 
 \begin{itemize}
@@ -863,7 +982,7 @@ Figure 9,10 and 11 shows that after tuning activation function, number
 of neurons and type of solvers the error change is lies between 2.2
 and 2.6 which is not too significant
 
-\subsubsection{Support vector regression (SVR):}
+\subsubsection{Support Vector Regression (SVR):}
 
 This model is only tuned on 
 \begin{itemize}
@@ -876,7 +995,7 @@ This model is only tuned on
 Figure 12 shows that the SVR model was tuned on its kernel property
 and the following results show that the rbf kernel had the least error
 
-\subsubsection{K-nearest neighbor (KNN):}
+\subsubsection{K-Nearest Neighbor (KNN):}
 
 This was tuned on 
 \begin{itemize}
@@ -905,7 +1024,7 @@ and weight parameter used to cluster data points, the results shows
 that varying both these parameters does not change the error by any
 significant amount
 
-\subsubsection{Multi-linear Regression (MLR):}
+\subsubsection{Multi-Linear Regression (MLR):}
 
 This algorithm is an extension of linear regression with added support
 of higher dimensions in feature space
@@ -938,17 +1057,17 @@ tuning does not change much which is a good indication that overfitting
 is not occurring. Whereas multi-linear regression has the most error
 due to its simplistic design.
 
-\subsection{Air Dispersion module}
+\subsection{Air Dispersion Module}
 
 To calculate the concentration of the pollutant after emission from
 the stack, Gaussian air dispersion model was used for simulation,
 this was implemented using python programing language. The results
 were then represented using a thresholding functions to map different
-concentration levels with a color level, and this was outputted as
-an image.
+concentration levels with a color level, and this was saved as an
+image file.
 
 \begin{figure}[H]
-\centering{}\includegraphics[width=9cm,height=9cm,keepaspectratio]{\string"readings/gaussian disp model/result\string".eps}\caption{Gaussian air dispersion model}
+\centering{}\includegraphics[width=9cm,height=9cm,keepaspectratio]{readings/gdm/result}\caption{Gaussian air dispersion model}
 \end{figure}
 
 Figure 17, shows the diffrent levels of concentration, white color
@@ -971,36 +1090,36 @@ error.
 \newpage{}
 
 \bibliographystyle{ieeetr}
-\addcontentsline{toc}{section}{\refname}\bibliography{citations/working,\string"citations/Exported Items\string"}
+\addcontentsline{toc}{section}{\refname}\bibliography{citations/working}
 
 \noindent\begin{minipage}[t]{1\columnwidth}%
-{[}17{]} A. Bronshtein, \textquotedblleft A Quick Introduction to
+{[}18{]} A. Bronshtein, \textquotedblleft A Quick Introduction to
 K-Nearest Neighbors Algorithm,\textquotedblright{} Medium, 06-May-2019.
 {[}Online{]}. Available: https://blog.usejournal.com/a-quick-introduction-to-k-nearest-neighbors-
 algorithm-62214cea29c7. {[}Accessed: 13-Jan-2020{]}.
 
 \medskip{}
 
-{[}18{]} I. Bhattacharyya, \textquotedblleft Support Vector Regression
+{[}19{]} I. Bhattacharyya, \textquotedblleft Support Vector Regression
 Or SVR,\textquotedblright{} Medium, 12-Jul-2018. {[}Online{]}. Available:
 https://medium.com/coinmonks/support-vector-regression-or-svr-8eb3acf6d0ff.
 {[}Accessed: 13-Jan-2020{]}.
 
 \medskip{}
 
-{[}19{]} \textquotedblleft Understanding Random Forest - Towards Data
+{[}20{]} \textquotedblleft Understanding Random Forest - Towards Data
 Science.\textquotedblright{} {[}Online{]}. Available: https://towardsdatascience.com/understanding-random-forest-58381e0602d2.
 {[}Accessed: 13-Jan-2020{]}.
 
 \medskip{}
 
-{[}20{]} W. Kenton, \textquotedblleft How Multiple Linear Regression
+{[}21{]} W. Kenton, \textquotedblleft How Multiple Linear Regression
 Works,\textquotedblright{} Investopedia. {[}Online{]}. Available:
 https://www.investopedia.com/terms/m/mlr.asp. {[}Accessed: 13-Jan-2020{]}.
 
 \medskip{}
 
-{[}21{]} \textquotedblleft Neural Networks Explained - Data Driven
+{[}22{]} \textquotedblleft Neural Networks Explained - Data Driven
 Investor - Medium.\textquotedblright{} {[}Online{]}. Available: https://medium.com/datadriveninvestor/neural-networks-explained-6e21c70d7818.
 {[}Accessed: 13-Jan-2020{]}.%
 \end{minipage}

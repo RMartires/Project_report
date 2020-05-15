@@ -1,0 +1,19 @@
+\babel@toc {english}{}
+\contentsline {figure}{\numberline {1}{\ignorespaces Methodology block diagram}}{12}%
+\contentsline {figure}{\numberline {2}{\ignorespaces IOT process flow}}{12}%
+\contentsline {figure}{\numberline {3}{\ignorespaces IOT circuit block diagram}}{14}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Machine Leaning process flow}}{14}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Parameter tuned max depth}}{21}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Parameter tuned max features}}{21}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Parameter tuned min sample leaf}}{22}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Parameter tuned min sample split}}{22}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Parameter tuned n estimators}}{22}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Parameter tuned activation function}}{23}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Parameter tuned number of neurons}}{23}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Parameter tuned solver}}{23}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Parameter tuned kernel}}{24}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Parameter tuned algorithm}}{24}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Parameter tuned weights}}{24}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Model tested on testing data}}{25}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Model tested on trainig data}}{25}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Gaussian air dispersion model}}{26}%
